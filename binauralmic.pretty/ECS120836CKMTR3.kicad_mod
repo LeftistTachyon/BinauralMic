@@ -1,0 +1,236 @@
+(footprint "ECS120836CKMTR3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "ECS-120-8-36-CKM-TR3-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "fe3a3644-2e7e-4ddc-a750-632d543d094a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ECS120836CKMTR3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4a3a472a-1afc-47e6-bdc9-076c1f95498b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "263490c6-129c-4a92-942d-f92269d743e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d57e2293-63ee-44a5-9607-4858af9f6304")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62d6cf7b-21ac-4177-bfba-49de7709c80e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.85 1.7)
+		(end -0.85 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b1a0f45-c925-46bd-975b-1b3f7bbc3c47")
+	)
+	(fp_line
+		(start -0.85 1.8)
+		(end -0.85 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f755a54-750a-455b-b031-6a06155580b3")
+	)
+	(fp_arc
+		(start -0.85 1.7)
+		(mid -0.8 1.75)
+		(end -0.85 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "baee176c-b65e-449f-bbf0-55c4f8589924")
+	)
+	(fp_arc
+		(start -0.85 1.8)
+		(mid -0.9 1.75)
+		(end -0.85 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d339abba-5ead-4371-9c14-5c6fbd382839")
+	)
+	(fp_line
+		(start -2.45 -2.15)
+		(end 2.45 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0367e842-adcd-4dc0-8079-e7ca2b4039b8")
+	)
+	(fp_line
+		(start -2.45 2.15)
+		(end -2.45 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4ae874a-a2ef-406d-a816-6c1bbf551074")
+	)
+	(fp_line
+		(start 2.45 -2.15)
+		(end 2.45 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e650411-a884-471b-8985-ab9ce4c53df0")
+	)
+	(fp_line
+		(start 2.45 2.15)
+		(end -2.45 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2813b179-22f1-4883-a74b-c94cfedc10de")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86cba248-ebce-4fc0-9745-e2a083cb439f")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "524ddbe5-5c5d-42bb-8475-1cb90adf2ed9")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6069dd1-934c-4cce-b6eb-899c962d7869")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b6bdf71-3edf-4fb0-ad93-1b7a64492760")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1d37cb9c-f116-45d7-92d4-00b55f505f85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9c432c2d-52a0-43fd-a094-f0ff5c002123")
+	)
+	(pad "2" smd rect
+		(at 0.85 0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e8c79756-1d62-40dd-bbe8-cd2b0db23945")
+	)
+	(pad "3" smd rect
+		(at 0.85 -0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a1a66191-6775-49a7-b77f-b769975776cd")
+	)
+	(pad "4" smd rect
+		(at -0.85 -0.65 90)
+		(size 1 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aaaeaf95-e972-4f32-8f77-241a5d30e3d3")
+	)
+	(model "${KIPRJMOD}/binauralmic.3dmodels/ECS-120-8-36-CKM-TR3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -5,7 +5,11 @@
 	(uuid "1951ca8d-f99f-4328-95dd-7b7ac7feab14")
 	(paper "A4")
 	(title_block
-		(date "2024-09-12")
+		(title "Microphone Preamplifier")
+		(date "2024-09-15")
+		(rev "1")
+		(company "Tachyon PCBAs")
+		(comment 1 "first try surely")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1638,7 +1642,7 @@
 	)
 	(text "RIGHT"
 		(exclude_from_sim no)
-		(at 80.264 124.714 0)
+		(at 80.01 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1662,7 +1666,7 @@
 	)
 	(text "LEFT"
 		(exclude_from_sim no)
-		(at 79.756 78.74 0)
+		(at 80.01 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1675,7 +1679,7 @@
 	)
 	(text "Mic Preamp"
 		(exclude_from_sim no)
-		(at 140.208 36.83 0)
+		(at 140.335 36.83 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1687,7 +1691,7 @@
 	)
 	(text "C20\ndischarge\npath"
 		(exclude_from_sim no)
-		(at 141.732 129.794 0)
+		(at 141.605 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1698,7 +1702,7 @@
 	)
 	(text "Calculations for this preamp circuit follow TI's white paper for electret microphone preamps at https://www.ti.com/lit/ug/tidu765/tidu765.pdf\nSimulations can also be found in ./sim/Preamp2.*"
 		(exclude_from_sim no)
-		(at 70.866 152.146 0)
+		(at 71.12 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1720,7 +1724,7 @@
 	)
 	(text "Voltage Rails"
 		(exclude_from_sim no)
-		(at 167.894 75.692 0)
+		(at 168.275 75.565 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1732,7 +1736,7 @@
 	)
 	(text "Preamp"
 		(exclude_from_sim no)
-		(at 73.914 49.276 0)
+		(at 74.295 48.895 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1744,7 +1748,7 @@
 	)
 	(text "C16\ndischarge\npath"
 		(exclude_from_sim no)
-		(at 141.478 84.582 0)
+		(at 141.605 84.455 0)
 		(effects
 			(font
 				(size 1.27 1.27)

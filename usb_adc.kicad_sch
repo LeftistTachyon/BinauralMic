@@ -5,7 +5,12 @@
 	(uuid "e07ab000-3d53-4818-801c-eda4a8315f6f")
 	(paper "A4")
 	(title_block
-		(date "2024-09-12")
+		(title "USB ADC")
+		(date "2024-09-15")
+		(rev "1")
+		(company "Tachyon PCBAs")
+		(comment 1 "first try surely")
+		(comment 2 "Built around the PCM2903C")
 	)
 	(lib_symbols
 		(symbol "74xGxx:74LVC1G08"
@@ -3356,7 +3361,7 @@
 	)
 	(text "USB ADC"
 		(exclude_from_sim no)
-		(at 111.76 49.022 0)
+		(at 111.76 48.895 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3368,7 +3373,7 @@
 	)
 	(text "Pierce Oscillator (12MHz)"
 		(exclude_from_sim no)
-		(at 178.054 113.538 0)
+		(at 177.8 113.665 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3380,7 +3385,7 @@
 	)
 	(text "USB D+ Pull Up Logic"
 		(exclude_from_sim no)
-		(at 177.8 61.468 0)
+		(at 177.8 61.595 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3392,7 +3397,7 @@
 	)
 	(text "Suspension Indication LED"
 		(exclude_from_sim no)
-		(at 142.748 69.85 90)
+		(at 142.875 69.85 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3403,7 +3408,7 @@
 	)
 	(text "State machine control (Mute, Volume adj.)"
 		(exclude_from_sim no)
-		(at 178.054 17.018 0)
+		(at 177.8 17.145 0)
 		(effects
 			(font
 				(size 1.27 1.27)

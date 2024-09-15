@@ -5,7 +5,11 @@
 	(uuid "97960d3d-e905-49d9-8682-8a2fb4ca0ea5")
 	(paper "A4")
 	(title_block
-		(date "2024-09-12")
+		(title "LDO + Power Filtering")
+		(date "2024-09-15")
+		(rev "1")
+		(company "Tachyon PCBAs")
+		(comment 1 "first try surely")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1040,7 +1044,7 @@
 	)
 	(text "f_{C} = 3.747kHz\n|H(f = 48kHz)| = -39.9dB"
 		(exclude_from_sim no)
-		(at 173.482 85.344 0)
+		(at 173.355 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1051,7 +1055,7 @@
 	)
 	(text "LDO + Input Filtering"
 		(exclude_from_sim no)
-		(at 154.432 71.374 0)
+		(at 154.305 71.12 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1063,7 +1067,7 @@
 	)
 	(text "f_{C} = 3.747kHz"
 		(exclude_from_sim no)
-		(at 106.68 87.63 0)
+		(at 106.68 86.995 0)
 		(effects
 			(font
 				(size 1.27 1.27)

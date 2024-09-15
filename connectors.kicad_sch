@@ -5,7 +5,12 @@
 	(uuid "bd2c99a0-886d-43ec-a45d-c5a7ea4f8326")
 	(paper "A4")
 	(title_block
-		(date "2024-09-12")
+		(title "Connectors")
+		(date "2024-09-15")
+		(rev "1")
+		(company "Tachyon PCBAs")
+		(comment 1 "first try surely")
+		(comment 2 "USB, S/PDIF Coax, Analog in")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -1931,7 +1936,7 @@
 	)
 	(text "USB C Port"
 		(exclude_from_sim no)
-		(at 75.946 69.088 0)
+		(at 76.835 69.215 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1943,7 +1948,7 @@
 	)
 	(text "S/PDIF is 75Ω-terminated"
 		(exclude_from_sim no)
-		(at 171.958 73.66 0)
+		(at 172.085 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1954,7 +1959,7 @@
 	)
 	(text "Shown are off-board leads"
 		(exclude_from_sim no)
-		(at 198.374 145.542 0)
+		(at 198.12 145.415 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1965,7 +1970,7 @@
 	)
 	(text "Microphone inputs"
 		(exclude_from_sim no)
-		(at 141.986 105.918 0)
+		(at 142.875 106.045 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1977,7 +1982,7 @@
 	)
 	(text "S/PDIF I/O (RCA plugs)"
 		(exclude_from_sim no)
-		(at 142.24 56.388 0)
+		(at 142.875 56.515 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1989,7 +1994,7 @@
 	)
 	(text "5.1kΩ on CC for allowing pulling power from VBUS"
 		(exclude_from_sim no)
-		(at 75.692 131.318 0)
+		(at 75.565 131.445 0)
 		(effects
 			(font
 				(size 1.27 1.27)

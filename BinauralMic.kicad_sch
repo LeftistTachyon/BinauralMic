@@ -5,8 +5,8 @@
 	(uuid "d9e790b9-8aa4-4e58-8bd7-6ef4bc890627")
 	(paper "A5")
 	(title_block
-		(title "Binaural Mic")
-		(date "2024-09-12")
+		(title "Binaural Mic (Block Diagram)")
+		(date "2024-09-15")
 		(rev "1")
 		(company "Tachyon PCBAs")
 		(comment 1 "first try surely")
@@ -597,7 +597,7 @@
 	)
 	(text "Analog In"
 		(exclude_from_sim no)
-		(at 144.272 85.598 0)
+		(at 144.78 84.455 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -608,7 +608,7 @@
 	)
 	(text "USB Power"
 		(exclude_from_sim no)
-		(at 60.96 44.704 0)
+		(at 60.96 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -619,7 +619,7 @@
 	)
 	(text "S/PDIF I/O"
 		(exclude_from_sim no)
-		(at 144.526 68.58 0)
+		(at 144.78 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -630,7 +630,7 @@
 	)
 	(text "USB I/O"
 		(exclude_from_sim no)
-		(at 60.452 61.214 0)
+		(at 60.96 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -641,7 +641,7 @@
 	)
 	(text "USB Power\n& I/O"
 		(exclude_from_sim no)
-		(at 144.526 59.944 0)
+		(at 144.78 60.325 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -652,7 +652,7 @@
 	)
 	(text "S/PDIF I/O"
 		(exclude_from_sim no)
-		(at 60.452 68.58 0)
+		(at 60.96 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -663,7 +663,7 @@
 	)
 	(text "Analog In"
 		(exclude_from_sim no)
-		(at 60.198 84.582 0)
+		(at 60.96 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)

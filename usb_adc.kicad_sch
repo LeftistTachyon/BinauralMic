@@ -1990,7 +1990,7 @@
 		(uuid "0ce42d22-6a4c-4d45-ba8a-6bbd3d121512")
 	)
 	(junction
-		(at 184.15 38.1)
+		(at 181.61 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e09185c-5b07-4811-ab3a-ee327673eb7c")
@@ -2050,7 +2050,7 @@
 		(uuid "4e738ac8-a1d8-433a-b164-9750d3877787")
 	)
 	(junction
-		(at 184.15 27.94)
+		(at 181.61 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5104adc2-8f8a-4240-8929-bc8652a70783")
@@ -2062,7 +2062,7 @@
 		(uuid "70fb8cd2-5267-4b98-98f4-74a0fba29f1d")
 	)
 	(junction
-		(at 209.55 27.94)
+		(at 207.01 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ae5a9d-19e6-4c8f-b4b5-187b3d20fa14")
@@ -2092,7 +2092,7 @@
 		(uuid "9eee49f9-cad7-4799-9bf0-439a51d7c692")
 	)
 	(junction
-		(at 233.68 38.1)
+		(at 231.14 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a611b14f-809c-4cbb-b9ed-6cfbcba0c15f")
@@ -2110,7 +2110,7 @@
 		(uuid "bf67bd46-ae6a-40d8-9414-27760ed02f10")
 	)
 	(junction
-		(at 209.55 38.1)
+		(at 207.01 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2658965-eb3e-42e1-8a91-67bc17fc22db")
@@ -2153,6 +2153,10 @@
 		(at 129.54 115.57)
 		(uuid "d0e7186c-b50e-4b81-969e-058b1b652b7a")
 	)
+	(no_connect
+		(at 129.54 92.71)
+		(uuid "e2d8cb94-cc03-4274-be33-7e039f361af4")
+	)
 	(wire
 		(pts
 			(xy 193.04 95.25) (xy 193.04 96.52)
@@ -2165,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 38.1) (xy 185.42 38.1)
+			(xy 181.61 38.1) (xy 182.88 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2225,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 36.83) (xy 209.55 38.1)
+			(xy 207.01 36.83) (xy 207.01 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2329,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 38.1) (xy 209.55 39.37)
+			(xy 207.01 38.1) (xy 207.01 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2365,7 +2369,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 50.8) (xy 185.42 50.8)
+			(xy 181.61 50.8) (xy 182.88 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2399,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 36.83) (xy 184.15 38.1)
+			(xy 181.61 36.83) (xy 181.61 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2475,7 +2479,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 27.94) (xy 233.68 27.94)
+			(xy 207.01 27.94) (xy 231.14 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2505,7 +2509,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 38.1) (xy 233.68 39.37)
+			(xy 231.14 38.1) (xy 231.14 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2685,7 +2689,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 27.94) (xy 209.55 27.94)
+			(xy 181.61 27.94) (xy 207.01 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2725,7 +2729,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 26.67) (xy 184.15 27.94)
+			(xy 181.61 26.67) (xy 181.61 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2775,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 38.1) (xy 184.15 39.37)
+			(xy 181.61 38.1) (xy 181.61 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2785,7 +2789,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 50.8) (xy 210.82 50.8)
+			(xy 207.01 50.8) (xy 208.28 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2805,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 38.1) (xy 234.95 38.1)
+			(xy 231.14 38.1) (xy 232.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2855,7 +2859,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 27.94) (xy 209.55 29.21)
+			(xy 207.01 27.94) (xy 207.01 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2895,7 +2899,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 49.53) (xy 209.55 50.8)
+			(xy 207.01 49.53) (xy 207.01 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2965,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 50.8) (xy 234.95 50.8)
+			(xy 231.14 50.8) (xy 232.41 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3075,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 27.94) (xy 233.68 29.21)
+			(xy 231.14 27.94) (xy 231.14 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3105,7 +3109,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 49.53) (xy 184.15 50.8)
+			(xy 181.61 49.53) (xy 181.61 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3115,7 +3119,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 36.83) (xy 233.68 38.1)
+			(xy 231.14 36.83) (xy 231.14 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3135,7 +3139,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 38.1) (xy 210.82 38.1)
+			(xy 207.01 38.1) (xy 208.28 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3215,16 +3219,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 92.71) (xy 130.81 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b34045-f931-48bd-9c86-56acc4a5989b")
-	)
-	(wire
-		(pts
 			(xy 76.2 107.95) (xy 76.2 115.57)
 		)
 		(stroke
@@ -3235,7 +3229,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 49.53) (xy 233.68 50.8)
+			(xy 231.14 49.53) (xy 231.14 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3245,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 27.94) (xy 184.15 29.21)
+			(xy 181.61 27.94) (xy 181.61 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3452,7 +3446,7 @@
 		(uuid "2ced1c47-9c0f-4cea-9384-efa135b1afdc")
 	)
 	(label "HID2"
-		(at 234.95 50.8 0)
+		(at 232.41 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3474,7 +3468,7 @@
 		(uuid "4c082c66-c286-42dc-8023-349a2aec7ec7")
 	)
 	(label "HID0_PU"
-		(at 185.42 38.1 0)
+		(at 182.88 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3518,7 +3512,7 @@
 		(uuid "69fc73bf-23f5-4012-938a-6dfe96aa352e")
 	)
 	(label "HID2_PU"
-		(at 234.95 38.1 0)
+		(at 232.41 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3562,7 +3556,7 @@
 		(uuid "b16fc345-ced5-439a-aa4d-b4b3effb7289")
 	)
 	(label "HID1"
-		(at 210.82 50.8 0)
+		(at 208.28 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3573,7 +3567,7 @@
 		(uuid "bc179d3b-aae3-41ca-8b50-ea50752a0a07")
 	)
 	(label "HID1_PU"
-		(at 210.82 38.1 0)
+		(at 208.28 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3617,7 +3611,7 @@
 		(uuid "e36be491-5d01-4a78-9b4d-fb0e798dc43b")
 	)
 	(label "HID0"
-		(at 185.42 50.8 0)
+		(at 182.88 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3723,21 +3717,9 @@
 		)
 		(uuid "d12c746a-3ff4-41dc-92f8-d2cad895e80a")
 	)
-	(hierarchical_label "DIN"
-		(shape input)
-		(at 130.81 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9b307a7-fd3a-4aa2-b758-08fd2891442e")
-	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 184.15 26.67 0)
+		(at 181.61 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3746,7 +3728,7 @@
 		(fields_autoplaced yes)
 		(uuid "07556163-6363-48e3-91d1-17ba514c9b22")
 		(property "Reference" "#PWR01"
-			(at 184.15 30.48 0)
+			(at 181.61 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +3737,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 184.15 21.59 0)
+			(at 181.61 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 26.67 0)
+			(at 181.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 26.67 0)
+			(at 181.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +3763,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 184.15 26.67 0)
+			(at 181.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +3785,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 209.55 44.45 270)
+		(at 207.01 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3812,7 +3794,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bf3fc81-9739-4dc0-bbb1-a97df77dc79a")
 		(property "Reference" "SW2"
-			(at 213.36 43.1799 90)
+			(at 210.82 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,8 +3802,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 213.36 45.7199 90)
+		(property "Value" "MX1A-11NW"
+			(at 210.82 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,8 +3811,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 214.63 44.45 0)
+		(property "Footprint" "binauralmic:SW_MX"
+			(at 212.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,8 +3820,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 214.63 44.45 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/71/chcp_s_a0000003074_1-2262931.pdf"
+			(at 212.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3830,16 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 209.55 44.45 0)
+			(at 207.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "540-MX1A-11NW"
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4108,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 33.02 0)
+		(at 207.01 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4126,7 +4117,7 @@
 		(fields_autoplaced yes)
 		(uuid "2db5edb9-4de9-411d-b36d-49b479843f16")
 		(property "Reference" "R2"
-			(at 212.09 31.7499 0)
+			(at 209.55 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +4126,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 212.09 34.2899 0)
+			(at 209.55 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4135,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 207.772 33.02 90)
+			(at 205.232 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4144,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
-			(at 209.55 33.02 0)
+			(at 207.01 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4153,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 209.55 33.02 0)
+			(at 207.01 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4162,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERA-3AEB152V"
-			(at 209.55 33.02 0)
+			(at 207.01 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +5264,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 33.02 0)
+		(at 181.61 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5282,7 +5273,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2837620-943c-4e18-b25a-3ef3e859585b")
 		(property "Reference" "R1"
-			(at 186.69 31.7499 0)
+			(at 184.15 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5282,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 186.69 34.2899 0)
+			(at 184.15 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5291,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 182.372 33.02 90)
+			(at 179.832 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,7 +5300,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
-			(at 184.15 33.02 0)
+			(at 181.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5309,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 184.15 33.02 0)
+			(at 181.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5318,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERA-3AEB152V"
-			(at 184.15 33.02 0)
+			(at 181.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5343,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 233.68 44.45 270)
+		(at 231.14 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5361,7 +5352,7 @@
 		(fields_autoplaced yes)
 		(uuid "a73597b5-8da7-40f0-8688-30f2bdf44e9f")
 		(property "Reference" "SW3"
-			(at 237.49 43.1799 90)
+			(at 234.95 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,8 +5360,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 237.49 45.7199 90)
+		(property "Value" "MX1A-11NW"
+			(at 234.95 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,8 +5369,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 238.76 44.45 0)
+		(property "Footprint" "binauralmic:SW_MX"
+			(at 236.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,8 +5378,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 238.76 44.45 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/71/chcp_s_a0000003074_1-2262931.pdf"
+			(at 236.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +5388,16 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 233.68 44.45 0)
+			(at 231.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "540-MX1A-11NW"
+			(at 231.14 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,7 +5648,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 233.68 33.02 0)
+		(at 231.14 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5657,7 +5657,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb0d478a-1310-4995-bddb-7e527d256995")
 		(property "Reference" "R4"
-			(at 236.22 31.7499 0)
+			(at 233.68 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5666,7 +5666,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 236.22 34.2899 0)
+			(at 233.68 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5675,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 231.902 33.02 90)
+			(at 229.362 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5684,7 +5684,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
-			(at 233.68 33.02 0)
+			(at 231.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5693,7 +5693,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 233.68 33.02 0)
+			(at 231.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +5702,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERA-3AEB152V"
-			(at 233.68 33.02 0)
+			(at 231.14 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +6294,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 184.15 44.45 270)
+		(at 181.61 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6303,7 +6303,7 @@
 		(fields_autoplaced yes)
 		(uuid "e92779fc-8976-42f0-b81c-1098080e4f14")
 		(property "Reference" "SW1"
-			(at 187.96 43.1799 90)
+			(at 185.42 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,8 +6311,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 187.96 45.7199 90)
+		(property "Value" "MX1A-11NW"
+			(at 185.42 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,8 +6320,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.23 44.45 0)
+		(property "Footprint" "binauralmic:SW_MX"
+			(at 186.69 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,8 +6329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 189.23 44.45 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/71/chcp_s_a0000003074_1-2262931.pdf"
+			(at 186.69 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6339,7 +6339,16 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 184.15 44.45 0)
+			(at 181.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "540-MX1A-11NW"
+			(at 181.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

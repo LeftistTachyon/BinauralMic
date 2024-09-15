@@ -173,7 +173,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_Coaxial_x2_Isolated"
+		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -187,7 +187,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_Coaxial_x2_Isolated"
+			(property "Value" "Conn_Coaxial"
 				(at 2.921 0 90)
 				(effects
 					(font
@@ -222,7 +222,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -231,7 +231,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -240,7 +240,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_Coaxial_x2_Isolated_0_1"
+			(symbol "Conn_Coaxial_0_1"
 				(arc
 					(start -1.778 -0.508)
 					(mid 0.2311 -1.8066)
@@ -301,11 +301,11 @@
 					)
 				)
 			)
-			(symbol "Conn_Coaxial_x2_Isolated_1_1"
+			(symbol "Conn_Coaxial_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "In1"
+					(name "In"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -323,7 +323,7 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "Ext1"
+					(name "Ext"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -331,44 +331,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_x2_Isolated_2_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1604,19 +1566,13 @@
 		(uuid "1c74829c-92c6-4c38-9634-8c0ac9fad84d")
 	)
 	(junction
-		(at 160.02 71.12)
+		(at 153.67 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24ab594c-27fc-4b9a-863b-238badd60c58")
 	)
 	(junction
-		(at 160.02 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c370093-e74d-4a51-9531-815f4b5bfb15")
-	)
-	(junction
-		(at 171.45 110.49)
+		(at 171.45 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "499d1c01-6c18-45e4-ba6c-3e7385bb65dc")
@@ -1634,7 +1590,7 @@
 		(uuid "80f1baf7-60f2-405a-bd5a-48eaf74aca88")
 	)
 	(junction
-		(at 171.45 140.97)
+		(at 171.45 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85cc0ac7-d917-4d2b-8b73-82b60123860b")
@@ -1646,13 +1602,13 @@
 		(uuid "85f75a9f-d830-4fa9-bad1-7a2140d869ab")
 	)
 	(junction
-		(at 171.45 123.19)
+		(at 171.45 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9618791f-ee10-4690-a942-0a2d8ffc27cf")
 	)
 	(junction
-		(at 167.64 60.96)
+		(at 161.29 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a25e1eaa-e6f0-4f4c-be97-189b291cc8b8")
@@ -1664,13 +1620,7 @@
 		(uuid "a972d68f-ae3f-4a0e-ac00-95bb4769f710")
 	)
 	(junction
-		(at 167.64 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3ce4c59-f615-4f67-9e57-131daf7e144f")
-	)
-	(junction
-		(at 171.45 128.27)
+		(at 171.45 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa310449-b6f0-468c-a5fe-4ded627c1f5d")
@@ -1685,16 +1635,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 92.71) (xy 167.64 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0664f71e-7e78-487c-a1b1-47f6b9ab8abb")
-	)
-	(wire
-		(pts
 			(xy 91.44 100.33) (xy 92.71 100.33)
 		)
 		(stroke
@@ -1705,7 +1645,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 71.12) (xy 167.64 71.12)
+			(xy 153.67 82.55) (xy 161.29 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 110.49) (xy 172.72 110.49)
+			(xy 171.45 102.87) (xy 172.72 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1675,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 128.27) (xy 172.72 128.27)
+			(xy 171.45 120.65) (xy 172.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 128.27) (xy 171.45 129.54)
+			(xy 171.45 120.65) (xy 171.45 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 135.89) (xy 167.64 135.89)
+			(xy 160.02 128.27) (xy 167.64 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1805,17 +1745,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 92.71) (xy 160.02 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dbdeddb-bf30-4530-ae06-4d3a6e9590cf")
-	)
-	(wire
-		(pts
-			(xy 191.77 60.96) (xy 190.5 60.96)
+			(xy 185.42 72.39) (xy 184.15 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 160.02 71.12)
+			(xy 153.67 77.47) (xy 153.67 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +1765,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 71.12) (xy 160.02 72.39)
+			(xy 153.67 82.55) (xy 153.67 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1875,7 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 110.49) (xy 171.45 111.76)
+			(xy 171.45 102.87) (xy 171.45 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1885,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 140.97) (xy 167.64 135.89)
+			(xy 167.64 133.35) (xy 167.64 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1895,7 +1825,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 165.1 60.96)
+			(xy 161.29 72.39) (xy 158.75 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1935,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 69.85) (xy 167.64 71.12)
+			(xy 161.29 81.28) (xy 161.29 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1945,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 115.57) (xy 167.64 115.57)
+			(xy 160.02 107.95) (xy 167.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1955,17 +1885,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 82.55) (xy 190.5 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "799eac5f-f157-4f8b-9e8f-2f0de9999ff5")
-	)
-	(wire
-		(pts
-			(xy 167.64 110.49) (xy 167.64 115.57)
+			(xy 167.64 102.87) (xy 167.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1985,16 +1905,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 83.82) (xy 167.64 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d904e4c-acab-4bc0-bf12-37fe89db25ef")
-	)
-	(wire
-		(pts
 			(xy 92.71 97.79) (xy 96.52 97.79)
 		)
 		(stroke
@@ -2005,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 140.97) (xy 167.64 140.97)
+			(xy 171.45 133.35) (xy 167.64 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2025,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 140.97) (xy 171.45 139.7)
+			(xy 171.45 133.35) (xy 171.45 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2035,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 123.19) (xy 167.64 118.11)
+			(xy 167.64 115.57) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 133.35) (xy 167.64 133.35)
+			(xy 160.02 125.73) (xy 167.64 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2055,23 +1965,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 118.11) (xy 167.64 118.11)
+			(xy 160.02 110.49) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab620c66-d975-427c-9d45-98e4f26ff8b5")
-	)
-	(wire
-		(pts
-			(xy 182.88 82.55) (xy 167.64 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace8ec20-b65f-4652-88c5-dbf4feeb83b6")
 	)
 	(wire
 		(pts
@@ -2085,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 60.96) (xy 167.64 60.96)
+			(xy 176.53 72.39) (xy 161.29 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2105,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 140.97) (xy 172.72 140.97)
+			(xy 171.45 133.35) (xy 172.72 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2115,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 110.49) (xy 171.45 110.49)
+			(xy 167.64 102.87) (xy 171.45 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2175,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 167.64 62.23)
+			(xy 161.29 72.39) (xy 161.29 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2185,43 +2085,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 87.63) (xy 160.02 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccebdd04-27a6-4bd1-8962-7b894072f3b2")
-	)
-	(wire
-		(pts
-			(xy 171.45 123.19) (xy 172.72 123.19)
+			(xy 171.45 115.57) (xy 172.72 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ce03dffa-9f8d-4d68-975b-7057dfdba7a6")
-	)
-	(wire
-		(pts
-			(xy 167.64 92.71) (xy 167.64 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0a97768-6a95-49fc-88ae-081a17577101")
-	)
-	(wire
-		(pts
-			(xy 167.64 82.55) (xy 165.1 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d37efa07-3658-4ae0-bf3f-7b72ef7e428c")
 	)
 	(wire
 		(pts
@@ -2255,7 +2125,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 133.35) (xy 167.64 128.27)
+			(xy 167.64 125.73) (xy 167.64 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2305,7 +2175,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 123.19) (xy 167.64 123.19)
+			(xy 171.45 115.57) (xy 167.64 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 123.19) (xy 171.45 121.92)
+			(xy 171.45 115.57) (xy 171.45 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2335,7 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 128.27) (xy 171.45 128.27)
+			(xy 167.64 120.65) (xy 171.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2354,8 +2224,8 @@
 		(uuid "ff31e413-0110-407f-a8b4-248069759a44")
 	)
 	(rectangle
-		(start 140.97 104.14)
-		(end 199.39 146.05)
+		(start 140.97 96.52)
+		(end 199.39 138.43)
 		(stroke
 			(width 0)
 			(type default)
@@ -2366,8 +2236,8 @@
 		(uuid 1460f21b-2c56-4016-959d-8f4ffe8011bd)
 	)
 	(rectangle
-		(start 140.97 49.53)
-		(end 199.39 101.6)
+		(start 140.97 58.42)
+		(end 199.39 92.71)
 		(stroke
 			(width 0)
 			(type default)
@@ -2403,7 +2273,7 @@
 	)
 	(text "S/PDIF is 75Ω-terminated"
 		(exclude_from_sim no)
-		(at 172.085 74.295 0)
+		(at 165.735 85.725 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2414,7 +2284,7 @@
 	)
 	(text "Shown are off-board leads"
 		(exclude_from_sim no)
-		(at 198.12 145.415 0)
+		(at 198.12 137.795 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2425,7 +2295,7 @@
 	)
 	(text "Microphone inputs"
 		(exclude_from_sim no)
-		(at 142.875 106.045 0)
+		(at 142.875 98.425 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2437,7 +2307,7 @@
 	)
 	(text "S/PDIF I/O (RCA plugs)"
 		(exclude_from_sim no)
-		(at 142.875 51.435 0)
+		(at 142.875 60.325 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2470,7 +2340,7 @@
 		(uuid "f9800d7c-32cf-4cb9-850f-ee3e15fc210a")
 	)
 	(label "DOUT_R"
-		(at 170.18 60.96 0)
+		(at 163.83 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2491,17 +2361,6 @@
 		)
 		(uuid "651638c6-2a5c-4bce-921e-56c47cb236af")
 	)
-	(label "DIN_R"
-		(at 170.18 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c71afec9-4eba-470f-9a1e-54472427dd63")
-	)
 	(label "CC2"
 		(at 92.71 87.63 0)
 		(fields_autoplaced yes)
@@ -2515,7 +2374,7 @@
 	)
 	(hierarchical_label "VRAW_{R}"
 		(shape output)
-		(at 172.72 110.49 0)
+		(at 172.72 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2527,7 +2386,7 @@
 	)
 	(hierarchical_label "VCOM"
 		(shape passive)
-		(at 172.72 123.19 0)
+		(at 172.72 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2551,7 +2410,7 @@
 	)
 	(hierarchical_label "VCOM"
 		(shape passive)
-		(at 172.72 140.97 0)
+		(at 172.72 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2561,21 +2420,9 @@
 		)
 		(uuid "3784b40b-b530-4526-936b-31667ca6b1d3")
 	)
-	(hierarchical_label "DIN"
-		(shape output)
-		(at 191.77 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c5ecc61-f934-4b92-823a-7d5aa708f00c")
-	)
 	(hierarchical_label "DOUT"
 		(shape input)
-		(at 191.77 60.96 0)
+		(at 185.42 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2599,7 +2446,7 @@
 	)
 	(hierarchical_label "VRAW_{L}"
 		(shape output)
-		(at 172.72 128.27 0)
+		(at 172.72 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2620,76 +2467,6 @@
 			(justify left)
 		)
 		(uuid "f16630a1-290d-412d-9e2c-87936b9b18a2")
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
-		(at 167.64 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "069e662f-5791-40d6-8830-cca420b75e50")
-		(property "Reference" "D7"
-			(at 170.18 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD3V3Y1BSF"
-			(at 170.18 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm"
-			(at 167.64 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PESD3V3Y1BSF-1370637.pdf"
-			(at 167.64 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 167.64 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e9e18fe8-5a08-45c9-8163-b5f16bee44e5")
-		)
-		(pin "1"
-			(uuid "885d1c48-80be-4f29-a6ec-ac5421fe6142")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2759,7 +2536,7 @@
 	)
 	(symbol
 		(lib_id "Device:Microphone")
-		(at 171.45 116.84 0)
+		(at 171.45 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2768,7 +2545,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e9f21a9-d1dc-4e9e-86a4-2447feabc0cb")
 		(property "Reference" "MK1"
-			(at 175.26 114.8714 0)
+			(at 175.26 107.2514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2554,7 @@
 			)
 		)
 		(property "Value" "CMC-6027-24L100"
-			(at 175.26 117.4114 0)
+			(at 175.26 109.7914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 114.3 90)
+			(at 171.45 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2572,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/670/cmc_6027_24l100-1777217.pdf"
-			(at 171.45 114.3 90)
+			(at 171.45 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2581,7 @@
 			)
 		)
 		(property "Description" "Electret microphone"
-			(at 171.45 116.84 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2590,7 @@
 			)
 		)
 		(property "Mouser Part Number" "490-CMC-6027-24L100"
-			(at 171.45 116.84 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,8 +2680,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_x2_Isolated")
-		(at 160.02 60.96 0)
+		(lib_id "Connector:Conn_Coaxial")
+		(at 153.67 72.39 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2914,25 +2691,23 @@
 		(fields_autoplaced yes)
 		(uuid "4b413695-d2cd-47f2-b5d3-909f1336b114")
 		(property "Reference" "J1"
-			(at 156.21 59.9831 0)
+			(at 153.9874 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "156-4218-E"
-			(at 156.21 62.5231 0)
+		(property "Value" "RCJ-017"
+			(at 153.9874 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "binauralmic:1564218E"
-			(at 160.02 60.96 0)
+		(property "Footprint" "binauralmic:RCJ014"
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,8 +2715,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/209/KC_301518-2660777.pdf"
-			(at 160.02 60.96 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/670/rcj_01x_smt-1153223.pdf"
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2725,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 160.02 60.96 0)
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,8 +2733,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "156-4218-E"
-			(at 160.02 60.96 0)
+		(property "Mouser Part Number" "490-RCJ-017"
+			(at 153.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2969,12 +2744,6 @@
 		)
 		(pin "2"
 			(uuid "1b968a1e-51bc-4f86-a2c4-22ae2274ea5c")
-		)
-		(pin "4"
-			(uuid "e7665ffd-83ad-442e-9c54-dde698820fbe")
-		)
-		(pin "3"
-			(uuid "a885e5b8-6396-4d08-9a7d-6935c5aba281")
 		)
 		(pin "1"
 			(uuid "9f5031ff-0426-4197-982d-1eb535def8bd")
@@ -3257,7 +3026,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 154.94 133.35 0)
+		(at 154.94 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3266,7 +3035,7 @@
 		(fields_autoplaced yes)
 		(uuid "57e2d7a7-9e50-4443-b703-e2ba80ad084b")
 		(property "Reference" "J4"
-			(at 155.575 128.27 0)
+			(at 155.575 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,7 +3043,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 155.575 130.81 0)
+			(at 155.575 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3051,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
-			(at 154.94 133.35 0)
+			(at 154.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 133.35 0)
+			(at 154.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +3069,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 154.94 133.35 0)
+			(at 154.94 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +3094,7 @@
 	)
 	(symbol
 		(lib_id "Device:Microphone")
-		(at 171.45 134.62 0)
+		(at 171.45 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3334,7 +3103,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ed0d2c5-4c6f-4b07-b38e-8dd1b8a25c23")
 		(property "Reference" "MK2"
-			(at 175.26 132.6514 0)
+			(at 175.26 125.0314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3112,7 @@
 			)
 		)
 		(property "Value" "CMC-6027-24L100"
-			(at 175.26 135.1914 0)
+			(at 175.26 127.5714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3121,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 132.08 90)
+			(at 171.45 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3130,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/670/cmc_6027_24l100-1777217.pdf"
-			(at 171.45 132.08 90)
+			(at 171.45 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3139,7 @@
 			)
 		)
 		(property "Description" "Electret microphone"
-			(at 171.45 134.62 0)
+			(at 171.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3148,7 @@
 			)
 		)
 		(property "Mouser Part Number" "490-CMC-6027-24L100"
-			(at 171.45 134.62 0)
+			(at 171.45 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,73 +3166,6 @@
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
 					(reference "MK2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66d0e7e0-2798-4229-8ba2-22788bac2bdc")
-		(property "Reference" "#PWR017"
-			(at 160.02 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f4127f7-07cc-4bf0-b09b-cac7ff866d5c")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -3697,7 +3399,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 72.39 0)
+		(at 153.67 83.82 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3707,7 +3409,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e51462d-822b-450b-839e-e2299683d4eb")
 		(property "Reference" "#PWR016"
-			(at 160.02 78.74 0)
+			(at 153.67 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +3418,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 77.47 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 72.39 0)
+			(at 153.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 72.39 0)
+			(at 153.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 72.39 0)
+			(at 153.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,92 +3535,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_x2_Isolated")
-		(at 160.02 82.55 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac819bbb-9abf-4ee6-a0be-73ba300f337e")
-		(property "Reference" "J1"
-			(at 156.21 81.5731 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "156-4218-E"
-			(at 156.21 84.1131 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "binauralmic:1564218E"
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/209/KC_301518-2660777.pdf"
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "156-4218-E"
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "756ca503-bab3-4af3-a37a-b3e96ad54575")
-		)
-		(pin "4"
-			(uuid "a7e962f7-9ecd-47fc-8144-2d6788f22ec8")
-		)
-		(pin "3"
-			(uuid "bc9b4453-28e4-49a2-9b2e-364fc58d018f")
-		)
-		(pin "1"
-			(uuid "f0a4d4fd-9f93-4de9-85d2-70cea9bac0d6")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "J1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 72.39 120.65 0)
 		(unit 1)
@@ -3986,7 +3602,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 154.94 115.57 0)
+		(at 154.94 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3995,7 +3611,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5b3e317-d195-42aa-94e7-15084553bfa3")
 		(property "Reference" "J3"
-			(at 155.575 110.49 0)
+			(at 155.575 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +3619,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 155.575 113.03 0)
+			(at 155.575 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +3627,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
-			(at 154.94 115.57 0)
+			(at 154.94 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +3636,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 115.57 0)
+			(at 154.94 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4029,7 +3645,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 154.94 115.57 0)
+			(at 154.94 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +3670,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 167.64 66.04 90)
+		(at 161.29 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4063,7 +3679,7 @@
 		(fields_autoplaced yes)
 		(uuid "e41ffa44-5d4d-480a-9480-376d8818edda")
 		(property "Reference" "D6"
-			(at 170.18 64.7699 90)
+			(at 163.83 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4072,7 +3688,7 @@
 			)
 		)
 		(property "Value" "PESD3V3Y1BSF"
-			(at 170.18 67.3099 90)
+			(at 163.83 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +3697,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm"
-			(at 167.64 66.04 0)
+			(at 161.29 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +3706,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PESD3V3Y1BSF-1370637.pdf"
-			(at 167.64 66.04 0)
+			(at 161.29 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +3715,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 167.64 66.04 0)
+			(at 161.29 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,85 +3740,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 186.69 82.55 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb6610f7-3390-4745-af3a-7ce473b206e3")
-		(property "Reference" "R9"
-			(at 186.69 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "75"
-			(at 186.69 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 186.69 84.328 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
-			(at 186.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 186.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RT0603FRE0775RL"
-			(at 186.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "12919428-600c-412f-9f77-391d13210f9e")
-		)
-		(pin "1"
-			(uuid "37798d31-1a2f-4fe2-9d61-400a46da1611")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 186.69 60.96 270)
+		(at 180.34 72.39 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4212,7 +3750,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcb7f212-17c3-4a0d-b707-cbd6c33c5af6")
 		(property "Reference" "R3"
-			(at 186.69 54.61 90)
+			(at 180.34 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +3758,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 186.69 57.15 90)
+			(at 180.34 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +3766,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 186.69 62.738 90)
+			(at 180.34 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +3775,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
-			(at 186.69 60.96 0)
+			(at 180.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +3784,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 186.69 60.96 0)
+			(at 180.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +3793,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RT0603FRE0775RL"
-			(at 186.69 60.96 0)
+			(at 180.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -487,16 +487,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 67.31) (xy 135.89 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e29a2f0-02a7-4dae-89f9-6ab59dc4414d")
-	)
-	(wire
-		(pts
 			(xy 127 40.64) (xy 127 44.45)
 		)
 		(stroke
@@ -619,7 +609,7 @@
 	)
 	(text "S/PDIF I/O"
 		(exclude_from_sim no)
-		(at 144.78 68.58 0)
+		(at 144.78 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -650,9 +640,9 @@
 		)
 		(uuid "8ac44205-8e8c-4500-8a7d-dacb4f177486")
 	)
-	(text "S/PDIF I/O"
+	(text "S/PDIF Out"
 		(exclude_from_sim no)
-		(at 60.96 68.58 0)
+		(at 60.96 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -681,17 +671,6 @@
 			)
 		)
 		(uuid "f493f8ce-550e-4ea3-a2b5-8021a5779652")
-	)
-	(label "DIN"
-		(at 76.2 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33a4df2c-e9d5-4b06-9baf-812c478b08b0")
 	)
 	(label "VRAW_{R}"
 		(at 76.2 78.74 0)
@@ -1050,16 +1029,6 @@
 			)
 			(uuid "e0ed2445-125d-411d-b38f-2d33f7a5a13c")
 		)
-		(pin "DIN" input
-			(at 135.89 67.31 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5760f2d3-eac0-4754-91b4-8f734ecad7ba")
-		)
 		(pin "DOUT" output
 			(at 135.89 69.85 180)
 			(effects
@@ -1362,16 +1331,6 @@
 				(justify right)
 			)
 			(uuid "acd6262e-2bbd-4713-9d5d-557130ac421f")
-		)
-		(pin "DIN" output
-			(at 68.58 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ac9860ce-bd53-4936-a63d-976aa89afb35")
 		)
 		(pin "DOUT" input
 			(at 68.58 69.85 0)

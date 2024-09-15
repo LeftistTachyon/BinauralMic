@@ -386,6 +386,22 @@
     [
       "d9e790b9-8aa4-4e58-8bd7-6ef4bc890627",
       "Root"
+    ],
+    [
+      "ed99070c-0835-415c-8078-0f260c71dd6d",
+      "Connectors"
+    ],
+    [
+      "dd5b3e13-d8cb-4f9f-b963-e8d744f036a9",
+      "LDO + Power Filtering"
+    ],
+    [
+      "c3b3219f-f658-485a-9922-47cf99d00243",
+      "Mic Preamp"
+    ],
+    [
+      "1f1de066-50ca-4c06-9457-56cc25f04510",
+      "USB ADC"
     ]
   ],
   "text_variables": {}

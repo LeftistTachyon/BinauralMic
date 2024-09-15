@@ -3505,7 +3505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 104.14 87.63 0)
 			(effects
 				(font
@@ -3515,6 +3515,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 104.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-105K1L"
 			(at 104.14 87.63 0)
 			(effects
 				(font
@@ -3644,7 +3653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RC_Group_51_RoHS_L_11-1984063.pdf"
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -3654,6 +3663,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-105K1L"
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -4140,7 +4158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 186.69 82.55 0)
 			(effects
 				(font
@@ -4150,6 +4168,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 186.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE0775RL"
 			(at 186.69 82.55 0)
 			(effects
 				(font
@@ -4209,7 +4236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 186.69 60.96 0)
 			(effects
 				(font
@@ -4219,6 +4246,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE0775RL"
 			(at 186.69 60.96 0)
 			(effects
 				(font

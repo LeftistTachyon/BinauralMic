@@ -3924,6 +3924,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "771-74LVC1G08GV"
+			(at 209.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2b3f4f7-e460-4c55-9e1f-d76ded4658bf")
 		)
@@ -4143,7 +4152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 209.55 33.02 0)
 			(effects
 				(font
@@ -4153,6 +4162,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 209.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB152V"
 			(at 209.55 33.02 0)
 			(effects
 				(font
@@ -4290,7 +4308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/cr-1858361.pdf"
 			(at 212.09 124.46 0)
 			(effects
 				(font
@@ -4300,6 +4318,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-1004ELF"
 			(at 212.09 124.46 0)
 			(effects
 				(font
@@ -4358,7 +4385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 236.22 83.82 0)
 			(effects
 				(font
@@ -4368,6 +4395,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 236.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB152V"
 			(at 236.22 83.82 0)
 			(effects
 				(font
@@ -4771,7 +4807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/cr-1858361.pdf"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -4781,6 +4817,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 193.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-1004ELF"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -5052,7 +5097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/cr-1858361.pdf"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -5062,6 +5107,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-22R0ELF"
 			(at 81.28 82.55 0)
 			(effects
 				(font
@@ -5254,7 +5308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 184.15 33.02 0)
 			(effects
 				(font
@@ -5264,6 +5318,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB152V"
 			(at 184.15 33.02 0)
 			(effects
 				(font
@@ -5402,6 +5465,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 212.09 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "520-120-8-36-CKM-TR3"
 			(at 212.09 142.24 0)
 			(effects
 				(font
@@ -5611,7 +5683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 233.68 33.02 0)
 			(effects
 				(font
@@ -5621,6 +5693,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 233.68 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB152V"
 			(at 233.68 33.02 0)
 			(effects
 				(font
@@ -5826,7 +5907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/cr-1858361.pdf"
 			(at 81.28 85.09 0)
 			(effects
 				(font
@@ -5836,6 +5917,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-22R0ELF"
 			(at 81.28 85.09 0)
 			(effects
 				(font
@@ -6309,7 +6399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?28773"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -6319,6 +6409,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW08055K60FKEAC"
 			(at 132.08 76.2 0)
 			(effects
 				(font

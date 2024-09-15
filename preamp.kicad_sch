@@ -2582,7 +2582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/Kamaya_RMC_series_8_2022-3032447.pdf"
 			(at 125.73 123.19 0)
 			(effects
 				(font
@@ -2592,6 +2592,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 125.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "791-RMC1/16K49R9FTP"
 			(at 125.73 123.19 0)
 			(effects
 				(font
@@ -2795,7 +2804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 149.86 83.82 0)
 			(effects
 				(font
@@ -2805,6 +2814,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE10100KL"
 			(at 149.86 83.82 0)
 			(effects
 				(font
@@ -3017,7 +3035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 111.76 69.85 0)
 			(effects
 				(font
@@ -3027,6 +3045,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 111.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB183V"
 			(at 111.76 69.85 0)
 			(effects
 				(font
@@ -3134,6 +3161,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL972QDRQ1 "
 			(at 179.07 95.25 0)
 			(effects
 				(font
@@ -3278,7 +3314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/cr-1858361.pdf"
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -3288,6 +3324,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 111.76 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-1004ELF"
 			(at 111.76 113.03 0)
 			(effects
 				(font
@@ -3347,7 +3392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 111.76 115.57 0)
 			(effects
 				(font
@@ -3357,6 +3402,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB183V"
 			(at 111.76 115.57 0)
 			(effects
 				(font
@@ -3461,6 +3515,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TL972QDRQ1 "
 			(at 111.76 123.19 0)
 			(effects
 				(font
@@ -3733,6 +3796,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "595-TL972QDRQ1 "
+			(at 111.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "44feab38-cd2b-421c-9bee-ab675a1ef0fa")
 		)
@@ -3803,7 +3875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 228.6 90.17 0)
 			(effects
 				(font
@@ -3813,6 +3885,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE10100KL"
 			(at 228.6 90.17 0)
 			(effects
 				(font
@@ -3873,7 +3954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 92.71 68.58 0)
 			(effects
 				(font
@@ -3883,6 +3964,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 92.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB5901V"
 			(at 92.71 68.58 0)
 			(effects
 				(font
@@ -3941,7 +4031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/210/Kamaya_RMC_series_8_2022-3032447.pdf"
 			(at 125.73 77.47 0)
 			(effects
 				(font
@@ -3951,6 +4041,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "791-RMC1/16K49R9FTP"
 			(at 125.73 77.47 0)
 			(effects
 				(font
@@ -4156,7 +4255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
 			(at 92.71 114.3 0)
 			(effects
 				(font
@@ -4166,6 +4265,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "667-ERA-3AEB5901V"
 			(at 92.71 114.3 0)
 			(effects
 				(font
@@ -4448,7 +4556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 149.86 129.54 0)
 			(effects
 				(font
@@ -4458,6 +4566,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE10100KL"
 			(at 149.86 129.54 0)
 			(effects
 				(font
@@ -4518,7 +4635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 228.6 100.33 0)
 			(effects
 				(font
@@ -4528,6 +4645,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE10100KL"
 			(at 228.6 100.33 0)
 			(effects
 				(font
@@ -4663,7 +4789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/cr-1858361.pdf"
 			(at 111.76 67.31 0)
 			(effects
 				(font
@@ -4673,6 +4799,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 111.76 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-1004ELF"
 			(at 111.76 67.31 0)
 			(effects
 				(font

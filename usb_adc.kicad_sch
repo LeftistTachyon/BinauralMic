@@ -3015,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 71.12) (xy 132.08 71.12)
+			(xy 133.35 71.12) (xy 132.08 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3540,13 +3540,13 @@
 		(uuid "7c0fde39-c8a6-4a59-a9cf-26cb70745ba2")
 	)
 	(label "~{SSPND}_R"
-		(at 130.81 71.12 180)
+		(at 133.35 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a6fdbbe8-4e7e-4e37-a1c1-cfd3aac43a14")
 	)
@@ -3976,7 +3976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 144.4752 119.38 0)
 			(effects
 				(font
@@ -3985,7 +3985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
 			(at 143.51 115.57 0)
 			(effects
 				(font
@@ -3995,6 +3995,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA106K010TNJ"
 			(at 143.51 115.57 0)
 			(effects
 				(font
@@ -4046,7 +4055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 150.8252 93.98 0)
 			(effects
 				(font
@@ -4055,7 +4064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -4065,6 +4074,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA106K010TNJ"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -4116,7 +4134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 207.772 33.02 90)
 			(effects
 				(font
@@ -4195,7 +4213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/C0GNP0_Dielectric-2952720.pdf"
 			(at 223.52 147.32 0)
 			(effects
 				(font
@@ -4205,6 +4223,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 223.52 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-06035A160FAT2A"
 			(at 223.52 147.32 0)
 			(effects
 				(font
@@ -4322,7 +4349,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 236.22 85.598 90)
 			(effects
 				(font
@@ -4590,7 +4617,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 180.6448 73.66 0)
 			(effects
 				(font
@@ -4599,7 +4626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
 			(at 181.61 77.47 0)
 			(effects
 				(font
@@ -4609,6 +4636,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "74-TMCP1E104KTRF"
 			(at 181.61 77.47 0)
 			(effects
 				(font
@@ -4726,7 +4762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 191.262 91.44 90)
 			(effects
 				(font
@@ -4902,7 +4938,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 132.08 66.04 90)
+		(at 132.08 66.04 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4911,7 +4948,7 @@
 		(fields_autoplaced yes)
 		(uuid "83ed66eb-207a-4dda-bb1f-32864af02035")
 		(property "Reference" "D1"
-			(at 135.89 66.3574 90)
+			(at 128.27 66.3574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4919,8 +4956,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 135.89 68.8974 90)
+		(property "Value" "LTST-C193KRKT-2A"
+			(at 128.27 68.8974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +4974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/239/lite-on_lite-s-a0004283979-1-1749859.pdf"
 			(at 132.08 66.04 0)
 			(effects
 				(font
@@ -4947,6 +4984,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C193KRKT-2A"
 			(at 132.08 66.04 0)
 			(effects
 				(font
@@ -4997,7 +5043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 81.28 84.328 90)
 			(effects
 				(font
@@ -5199,7 +5245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 182.372 33.02 90)
 			(effects
 				(font
@@ -5477,7 +5523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 87.63 116.5352 0)
 			(effects
 				(font
@@ -5486,7 +5532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
 			(at 83.82 115.57 0)
 			(effects
 				(font
@@ -5496,6 +5542,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 83.82 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA106K010TNJ"
 			(at 83.82 115.57 0)
 			(effects
 				(font
@@ -5547,7 +5602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 231.902 33.02 90)
 			(effects
 				(font
@@ -5592,6 +5647,7 @@
 	(symbol
 		(lib_id "power:VDD")
 		(at 132.08 60.96 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5683,7 +5739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 64.4652 114.3 0)
 			(effects
 				(font
@@ -5692,7 +5748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
 			(at 63.5 110.49 0)
 			(effects
 				(font
@@ -5702,6 +5758,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA106K010TNJ"
 			(at 63.5 110.49 0)
 			(effects
 				(font
@@ -5752,7 +5817,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 81.28 86.868 90)
 			(effects
 				(font
@@ -5831,7 +5896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/C0GNP0_Dielectric-2952720.pdf"
 			(at 200.66 147.32 0)
 			(effects
 				(font
@@ -5841,6 +5906,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-06035A160FAT2A"
 			(at 200.66 147.32 0)
 			(effects
 				(font
@@ -6226,7 +6300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 130.302 76.2 90)
 			(effects
 				(font

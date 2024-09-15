@@ -148,6 +148,151 @@
 				)
 			)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Opamp_Dual"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -675,6 +820,102 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers hide)
@@ -797,6 +1038,12 @@
 		)
 	)
 	(junction
+		(at 181.61 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043ad9ea-a0dd-4579-831e-02f1f865c1ce")
+	)
+	(junction
 		(at 102.87 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -819,6 +1066,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "202d7fac-a5be-4c6f-9620-2b8c2bef9bd5")
+	)
+	(junction
+		(at 228.6 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22fc1ba8-827b-4324-8411-2fa1b49cf051")
+	)
+	(junction
+		(at 186.69 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "256f67af-70d3-4830-8e0b-45b2380b6a6e")
 	)
 	(junction
 		(at 92.71 74.93)
@@ -845,6 +1104,12 @@
 		(uuid "4915aa7b-af79-49aa-820a-718243af5fce")
 	)
 	(junction
+		(at 198.12 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b7f4c57-5420-4dbb-bfdf-dcbce3676199")
+	)
+	(junction
 		(at 120.65 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -857,28 +1122,34 @@
 		(uuid "58659e8b-390b-4d57-a1dd-2af566c6e73e")
 	)
 	(junction
+		(at 198.12 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a5e97dd-5190-4fb6-a0dd-ad44e96d13c1")
+	)
+	(junction
 		(at 149.86 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ee1208c-613a-4fd9-93e3-2040b08a8877")
 	)
 	(junction
-		(at 181.61 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bb0ea38-858d-4c5d-9e7b-bab3b42a59cb")
-	)
-	(junction
-		(at 186.69 86.36)
+		(at 186.69 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "977b87df-a3db-47be-a73d-fa305b2b5963")
 	)
 	(junction
-		(at 186.69 104.14)
+		(at 208.28 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0a78bfd-201b-4e20-a34d-67abd5632fbf")
+		(uuid "b448ab7a-4a72-4cb2-8a51-930eb4b1f44c")
+	)
+	(junction
+		(at 228.6 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba1599e3-1ec3-49b6-a02c-5755694bc2af")
 	)
 	(junction
 		(at 102.87 74.93)
@@ -905,13 +1176,25 @@
 		(uuid "ddcfb549-b069-40a8-9194-a0c66c65d08a")
 	)
 	(junction
+		(at 208.28 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e711504b-73a2-44d0-99ba-c7169b3800eb")
+	)
+	(junction
 		(at 102.87 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f57a5e69-c4aa-4788-916b-0ec87991e3e8")
 	)
 	(junction
-		(at 181.61 86.36)
+		(at 233.68 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdf9fa6e-9eed-4b44-aab6-ea7bc7fd72b1")
+	)
+	(junction
+		(at 181.61 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff9bb68d-9fc9-4404-b87f-a4dff228a93c")
@@ -948,13 +1231,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 105.41) (xy 181.61 104.14)
+			(xy 233.68 95.25) (xy 234.95 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10afbb7c-df3d-4210-8a77-5e07cdb1b938")
+		(uuid "10bc47e4-6a80-4a2d-ab5d-298f34d4b7d0")
 	)
 	(wire
 		(pts
@@ -968,13 +1251,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 99.06) (xy 186.69 104.14)
+			(xy 228.6 85.09) (xy 228.6 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "166c5d04-2c11-407b-ac07-f6cf15ffd3a9")
+		(uuid "14e34f8f-2165-4d14-a6a6-de9f01e9a97f")
 	)
 	(wire
 		(pts
@@ -985,6 +1268,16 @@
 			(type default)
 		)
 		(uuid "1998fb60-111a-4ffa-b4c0-bc1aa3c57ab0")
+	)
+	(wire
+		(pts
+			(xy 233.68 105.41) (xy 228.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199b927f-b07e-416a-9992-594059e1ff1d")
 	)
 	(wire
 		(pts
@@ -1025,6 +1318,26 @@
 			(type default)
 		)
 		(uuid "272c33d9-827d-4859-8aab-f0eb7094f3e5")
+	)
+	(wire
+		(pts
+			(xy 228.6 93.98) (xy 228.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27882c2d-509c-48b7-857d-99336fbbbf6b")
+	)
+	(wire
+		(pts
+			(xy 228.6 95.25) (xy 228.6 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279e698a-fabd-425e-b63b-f44da2d8b2ba")
 	)
 	(wire
 		(pts
@@ -1098,16 +1411,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 134.62) (xy 149.86 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a47d6ab-8927-4e11-a4ec-47f03c3597ab")
-	)
-	(wire
-		(pts
 			(xy 120.65 113.03) (xy 120.65 107.95)
 		)
 		(stroke
@@ -1138,16 +1441,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 134.62) (xy 149.86 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f275f44-f551-4395-aab9-386e63cfe7c2")
-	)
-	(wire
-		(pts
 			(xy 120.65 115.57) (xy 115.57 115.57)
 		)
 		(stroke
@@ -1155,16 +1448,6 @@
 			(type default)
 		)
 		(uuid "4025c0ba-1fcc-49a6-9271-a8d2db27ecd5")
-	)
-	(wire
-		(pts
-			(xy 151.13 88.9) (xy 149.86 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42296fdb-6e03-4b8d-8409-16dd0559f06c")
 	)
 	(wire
 		(pts
@@ -1208,23 +1491,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 104.14) (xy 181.61 104.14)
+			(xy 186.69 105.41) (xy 181.61 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4bf22253-35eb-43dd-9d51-f41399bf4fd9")
-	)
-	(wire
-		(pts
-			(xy 198.12 99.06) (xy 198.12 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d6e2bca-1817-4d9a-b104-12f4ef310569")
 	)
 	(wire
 		(pts
@@ -1238,13 +1511,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 88.9) (xy 149.86 87.63)
+			(xy 233.68 95.25) (xy 233.68 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51f1afdb-2ffa-46a9-90d0-30f5bfdddad7")
+		(uuid "504a124b-7dcc-461e-838f-9ea07a577a63")
 	)
 	(wire
 		(pts
@@ -1268,6 +1541,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 104.14) (xy 228.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ee3005-c07d-40e5-8324-d339d725c7f1")
+	)
+	(wire
+		(pts
 			(xy 102.87 69.85) (xy 102.87 67.31)
 		)
 		(stroke
@@ -1288,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 85.09) (xy 181.61 86.36)
+			(xy 181.61 83.82) (xy 181.61 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1318,13 +1601,23 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 86.36) (xy 198.12 91.44)
+			(xy 198.12 85.09) (xy 198.12 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "64761bce-564f-4099-995c-82334d41a186")
+	)
+	(wire
+		(pts
+			(xy 186.69 99.06) (xy 186.69 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685c2191-cee3-44a0-9aaf-e57e4c1aed0f")
 	)
 	(wire
 		(pts
@@ -1348,7 +1641,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 86.36) (xy 186.69 91.44)
+			(xy 186.69 85.09) (xy 186.69 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1368,6 +1661,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 99.06) (xy 208.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f59a26-2547-4920-bd41-6df9b7960cec")
+	)
+	(wire
+		(pts
 			(xy 120.65 113.03) (xy 120.65 115.57)
 		)
 		(stroke
@@ -1378,13 +1681,53 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 104.14) (xy 186.69 104.14)
+			(xy 198.12 105.41) (xy 186.69 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8231bf21-3a74-4952-a9ef-c03a651c6dce")
+	)
+	(wire
+		(pts
+			(xy 208.28 105.41) (xy 228.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a2942e-b036-4c24-8f92-5fa738caab67")
+	)
+	(wire
+		(pts
+			(xy 208.28 85.09) (xy 208.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85260025-cc90-4290-a32e-b349ec663aa7")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87661903-2946-4f35-90de-63aafe348d83")
+	)
+	(wire
+		(pts
+			(xy 181.61 85.09) (xy 181.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897d8dfd-1581-4a8c-9b1d-c0b34f5ba04f")
 	)
 	(wire
 		(pts
@@ -1408,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 186.69 86.36)
+			(xy 181.61 85.09) (xy 186.69 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1428,6 +1771,36 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 85.09) (xy 228.6 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e1e71c-0e05-4d69-a3ce-f6a8b2ca850f")
+	)
+	(wire
+		(pts
+			(xy 149.86 133.35) (xy 149.86 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52dda5b-e07a-49a3-ace6-8227d4da0787")
+	)
+	(wire
+		(pts
+			(xy 198.12 85.09) (xy 208.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa6b78f6-f95f-4755-a568-0f5511ad5635")
+	)
+	(wire
+		(pts
 			(xy 149.86 77.47) (xy 148.59 77.47)
 		)
 		(stroke
@@ -1435,6 +1808,16 @@
 			(type default)
 		)
 		(uuid "aad16707-bd13-460d-a8ac-057824220271")
+	)
+	(wire
+		(pts
+			(xy 228.6 95.25) (xy 233.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab414230-2934-43ba-b6c7-c31f0d40b264")
 	)
 	(wire
 		(pts
@@ -1458,7 +1841,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 86.36) (xy 198.12 86.36)
+			(xy 186.69 85.09) (xy 198.12 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1851,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 102.87) (xy 181.61 104.14)
+			(xy 181.61 102.87) (xy 181.61 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1488,6 +1871,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 105.41) (xy 198.12 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb095414-fe4a-4428-90b4-3c9790ac548e")
+	)
+	(wire
+		(pts
 			(xy 101.6 120.65) (xy 102.87 120.65)
 		)
 		(stroke
@@ -1498,16 +1891,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 105.41) (xy 180.34 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c324e45e-34ba-45be-8792-556dd4551101")
-	)
-	(wire
-		(pts
 			(xy 101.6 74.93) (xy 102.87 74.93)
 		)
 		(stroke
@@ -1515,6 +1898,16 @@
 			(type default)
 		)
 		(uuid "c3d96fa3-64db-4c91-8a94-ee61274fcd84")
+	)
+	(wire
+		(pts
+			(xy 181.61 105.41) (xy 181.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71107ad-21fb-4802-8a92-115b69b03cac")
 	)
 	(wire
 		(pts
@@ -1558,6 +1951,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 104.14) (xy 233.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6793126-2242-4aef-b864-c233e643dfa4")
+	)
+	(wire
+		(pts
 			(xy 92.71 120.65) (xy 93.98 120.65)
 		)
 		(stroke
@@ -1588,13 +1991,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 181.61 87.63)
+			(xy 198.12 99.06) (xy 198.12 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed094381-d04b-49a7-ab98-446f8eafec62")
+		(uuid "e977d520-bbfb-416c-a390-11e9672d85a3")
 	)
 	(wire
 		(pts
@@ -1630,7 +2033,7 @@
 	)
 	(rectangle
 		(start 166.37 73.66)
-		(end 209.55 110.49)
+		(end 243.84 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -1700,6 +2103,17 @@
 		)
 		(uuid "66430694-3dfc-4185-a659-7c78af1c40a6")
 	)
+	(text "Backup VCOM\nreference"
+		(exclude_from_sim no)
+		(at 228.6 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "8861b0f7-ca10-41df-a848-fb5dcf0206c7")
+	)
 	(text "Calculations for this preamp circuit follow TI's white paper for electret microphone preamps at https://www.ti.com/lit/ug/tidu765/tidu765.pdf\nSimulations can also be found in ./sim/Preamp2.*"
 		(exclude_from_sim no)
 		(at 71.12 152.4 0)
@@ -1733,6 +2147,17 @@
 			(justify left top)
 		)
 		(uuid "ea4d60d2-bc41-4a22-a092-63a98a62a10f")
+	)
+	(text "Additional ESD protection\nto avoid microphonic effects"
+		(exclude_from_sim no)
+		(at 208.28 107.315 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "ec299c67-9eb2-430c-b21f-bf4e8919d36f")
 	)
 	(text "Preamp"
 		(exclude_from_sim no)
@@ -1823,30 +2248,6 @@
 		)
 		(uuid "c31b63b8-b2c9-4093-ae3e-b277adcca02f")
 	)
-	(hierarchical_label "VCOM"
-		(shape passive)
-		(at 151.13 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "312ee4b0-9819-49fe-a5a5-0b0b21d91cbf")
-	)
-	(hierarchical_label "VCOM"
-		(shape passive)
-		(at 180.34 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a8199fa-8812-41c9-8efe-f299e2ae5bac")
-	)
 	(hierarchical_label "VRAW_{L}"
 		(shape input)
 		(at 91.44 76.2 180)
@@ -1883,6 +2284,18 @@
 		)
 		(uuid "8caa82f3-51db-43b1-812f-fadff1df285b")
 	)
+	(hierarchical_label "VCOM"
+		(shape passive)
+		(at 234.95 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9298f685-3ae4-40d4-9149-c47528303c6d")
+	)
 	(hierarchical_label "VIN_{L}"
 		(shape output)
 		(at 151.13 77.47 0)
@@ -1907,18 +2320,6 @@
 		)
 		(uuid "a9fce899-e640-4694-862a-0671c9f2fc15")
 	)
-	(hierarchical_label "VCOM"
-		(shape passive)
-		(at 151.13 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b22aec92-67ee-4e89-b435-c3b34fb16be9")
-	)
 	(hierarchical_label "VIN_{R}"
 		(shape output)
 		(at 151.13 123.19 0)
@@ -1930,6 +2331,221 @@
 			(justify left)
 		)
 		(uuid "b23d8c69-ca34-41ab-8523-e06390c9ff7e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e18ce18-1cc5-493c-9d15-9d58032a44db")
+		(property "Reference" "#PWR033"
+			(at 181.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60c2a69a-ce2a-4b87-b28c-3fedd875084c")
+		)
+		(instances
+			(project "BinauralMic"
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 208.28 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a3046ef-c240-4dda-b7dc-65a25fe4fdf1")
+		(property "Reference" "D4"
+			(at 210.82 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD3V3Y1BSF"
+			(at 210.82 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PESD3V3Y1BSF-1370637.pdf"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "817b8b72-8ceb-4f15-9d7d-0bdd30ecec6e")
+		)
+		(pin "1"
+			(uuid "edfee83c-1517-4c32-87c4-96b8c001768c")
+		)
+		(instances
+			(project "BinauralMic"
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 233.68 100.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "38579b1d-5741-4b5d-85d7-86679069d64d")
+		(property "Reference" "C17"
+			(at 237.49 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 237.49 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 232.7148 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
+			(at 233.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 233.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA475K016R"
+			(at 233.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1931df6d-8fdf-4f92-833c-535634dd335d")
+		)
+		(pin "2"
+			(uuid "f06416c8-0682-4fad-b472-1278d82e8b8f")
+		)
+		(instances
+			(project "BinauralMic"
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1957,7 +2573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 124.968 90)
 			(effects
 				(font
@@ -2091,7 +2707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 101.6 119.6848 0)
 			(effects
 				(font
@@ -2100,7 +2716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
 			(at 97.79 120.65 0)
 			(effects
 				(font
@@ -2110,6 +2726,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA475K016R"
 			(at 97.79 120.65 0)
 			(effects
 				(font
@@ -2161,7 +2786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.638 83.82 90)
 			(effects
 				(font
@@ -2229,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 101.6 73.9648 0)
 			(effects
 				(font
@@ -2238,7 +2863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
 			(at 97.79 74.93 0)
 			(effects
 				(font
@@ -2249,6 +2874,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA475K016R"
+			(at 97.79 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +2939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/45258/vjhifreqseries.pdf"
 			(at 111.76 107.95 0)
 			(effects
 				(font
@@ -2315,6 +2949,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "77-VJ0603D680FXPAJ"
 			(at 111.76 107.95 0)
 			(effects
 				(font
@@ -2365,7 +3008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.76 71.628 90)
 			(effects
 				(font
@@ -2534,7 +3177,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 181.61 85.09 0)
+		(at 181.61 83.82 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2544,7 +3187,7 @@
 		(fields_autoplaced yes)
 		(uuid "61c2dab1-4820-4478-923f-75fbca82fa2a")
 		(property "Reference" "#PWR025"
-			(at 181.61 88.9 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +3196,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 181.61 80.01 0)
+			(at 181.61 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +3204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 85.09 0)
+			(at 181.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +3213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 85.09 0)
+			(at 181.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +3222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 181.61 85.09 0)
+			(at 181.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +3269,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.76 114.808 90)
 			(effects
 				(font
@@ -2695,7 +3338,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.76 117.348 90)
 			(effects
 				(font
@@ -2959,7 +3602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/45258/vjhifreqseries.pdf"
 			(at 111.76 62.23 0)
 			(effects
 				(font
@@ -2969,6 +3612,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "77-VJ0603D680FXPAJ"
 			(at 111.76 62.23 0)
 			(effects
 				(font
@@ -3116,6 +3768,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 228.6 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "86d4b2ef-2b5d-44b9-92e3-d9ecc53c1012")
+		(property "Reference" "R20"
+			(at 226.06 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 226.06 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 230.378 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 228.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1114524-442b-4e25-864a-6737c61e9735")
+		)
+		(pin "1"
+			(uuid "d7b3156d-d35c-43b7-9f6d-4bd6da073d80")
+		)
+		(instances
+			(project "BinauralMic"
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 92.71 68.58 0)
 		(mirror y)
 		(unit 1)
@@ -3142,7 +3864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 94.488 68.58 90)
 			(effects
 				(font
@@ -3210,7 +3932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 79.248 90)
 			(effects
 				(font
@@ -3280,7 +4002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 187.6552 99.06 0)
 			(effects
 				(font
@@ -3289,7 +4011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
 			(at 186.69 95.25 0)
 			(effects
 				(font
@@ -3299,6 +4021,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 186.69 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "74-TMCP1E104KTRF"
 			(at 186.69 95.25 0)
 			(effects
 				(font
@@ -3317,6 +4048,72 @@
 			(project ""
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac30ede0-042e-45fe-b386-09a32d3d70f4")
+		(property "Reference" "#PWR032"
+			(at 149.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76b7de86-f86a-4615-9ec8-4846a4231baa")
+		)
+		(instances
+			(project "BinauralMic"
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3350,7 +4147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 94.488 114.3 90)
 			(effects
 				(font
@@ -3420,7 +4217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 199.0852 99.06 0)
 			(effects
 				(font
@@ -3429,7 +4226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
 			(at 198.12 95.25 0)
 			(effects
 				(font
@@ -3439,6 +4236,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 198.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA105K020TNJ"
 			(at 198.12 95.25 0)
 			(effects
 				(font
@@ -3457,6 +4263,72 @@
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0a064fa-430e-4cfe-a694-72fca7ec0f9d")
+		(property "Reference" "#PWR031"
+			(at 149.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9ca8288-dda9-4fd6-8c3f-c977e9817ded")
+		)
+		(instances
+			(project ""
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3488,7 +4360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 148.59 76.5048 0)
 			(effects
 				(font
@@ -3497,7 +4369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
 			(at 144.78 77.47 0)
 			(effects
 				(font
@@ -3507,6 +4379,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 144.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA475K016R"
 			(at 144.78 77.47 0)
 			(effects
 				(font
@@ -3558,7 +4439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 151.638 129.54 90)
 			(effects
 				(font
@@ -3601,6 +4482,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 228.6 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d5e75575-6bc6-4763-9ac9-49b240d153f2")
+		(property "Reference" "R17"
+			(at 226.06 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 226.06 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 230.378 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e78670b4-0cd2-42b6-838b-2444de1aeb73")
+		)
+		(pin "1"
+			(uuid "c4a5c8b2-16de-468b-a503-f315096e7075")
+		)
+		(instances
+			(project "BinauralMic"
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 144.78 123.19 90)
 		(unit 1)
@@ -3625,7 +4576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 148.59 122.2248 0)
 			(effects
 				(font
@@ -3634,7 +4585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
 			(at 144.78 123.19 0)
 			(effects
 				(font
@@ -3644,6 +4595,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA475K016R"
 			(at 144.78 123.19 0)
 			(effects
 				(font
@@ -3694,7 +4654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 111.76 69.088 90)
 			(effects
 				(font

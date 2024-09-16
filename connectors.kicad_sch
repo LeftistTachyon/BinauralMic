@@ -2478,7 +2478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37facaba-5542-41d2-bfb1-4ea2de54baa0")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR05"
 			(at 111.76 97.79 0)
 			(effects
 				(font
@@ -2528,7 +2528,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "#PWR020")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2623,7 +2623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41b5cd67-09b3-481f-a339-ec98da4e5de9")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR07"
 			(at 116.84 114.3 0)
 			(effects
 				(font
@@ -2673,7 +2673,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "#PWR026")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2889,7 +2889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5335a8aa-5a57-4853-9be0-26ea19714430")
-		(property "Reference" "D8"
+		(property "Reference" "D2"
 			(at 119.38 83.8199 90)
 			(effects
 				(font
@@ -2952,7 +2952,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "D8")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2968,7 +2968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "577bc994-b154-481f-9d8f-5ed94088dcff")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR06"
 			(at 96.52 114.3 0)
 			(effects
 				(font
@@ -3018,7 +3018,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "#PWR022")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3180,7 +3180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83c275db-a7ee-48b6-8c46-019cbc2607c4")
-		(property "Reference" "R12"
+		(property "Reference" "R3"
 			(at 101.346 86.36 90)
 			(effects
 				(font
@@ -3243,7 +3243,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "R12")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3259,7 +3259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86531d78-c913-42ab-b994-2691825ff8f7")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 119.38 101.5999 90)
 			(effects
 				(font
@@ -3277,7 +3277,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 116.84 102.87 0)
 			(effects
 				(font
@@ -3322,7 +3322,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3337,7 +3337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8df451ca-c6d4-4023-b368-eb8b62d39bf4")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 101.346 83.82 90)
 			(effects
 				(font
@@ -3400,7 +3400,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3417,7 +3417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e51462d-822b-450b-839e-e2299683d4eb")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR04"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -3467,7 +3467,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "#PWR016")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3483,7 +3483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a39c31ba-b512-402d-886b-0c9acece8381")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 99.06 101.5999 90)
 			(effects
 				(font
@@ -3501,7 +3501,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 96.52 102.87 0)
 			(effects
 				(font
@@ -3546,7 +3546,7 @@
 		(instances
 			(project ""
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3562,7 +3562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2790fc0-23b7-41de-88b8-bc1b9fd0ef4e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR08"
 			(at 72.39 127 0)
 			(effects
 				(font
@@ -3612,7 +3612,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "#PWR021")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3696,7 +3696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e41ffa44-5d4d-480a-9480-376d8818edda")
-		(property "Reference" "D6"
+		(property "Reference" "D1"
 			(at 163.83 76.1999 90)
 			(effects
 				(font
@@ -3714,7 +3714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 161.29 77.47 0)
 			(effects
 				(font
@@ -3759,7 +3759,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "D6")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3776,7 +3776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcb7f212-17c3-4a0d-b707-cbd6c33c5af6")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 180.34 66.04 90)
 			(effects
 				(font
@@ -3837,7 +3837,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)

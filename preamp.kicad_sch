@@ -2341,7 +2341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07ae2b6f-d1c1-4ca8-8633-31cf3e264d19")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 105.156 68.58 90)
 			(effects
 				(font
@@ -2404,7 +2404,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2420,7 +2420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e18ce18-1cc5-493c-9d15-9d58032a44db")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR015"
 			(at 177.8 114.3 0)
 			(effects
 				(font
@@ -2470,7 +2470,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "#PWR033")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2486,7 +2486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a3046ef-c240-4dda-b7dc-65a25fe4fdf1")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 207.01 95.2499 90)
 			(effects
 				(font
@@ -2504,7 +2504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_DSN0603-2_0.6x0.3mm_P0.4mm"
+		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 204.47 96.52 0)
 			(effects
 				(font
@@ -2549,7 +2549,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -2565,7 +2565,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "38579b1d-5741-4b5d-85d7-86679069d64d")
-		(property "Reference" "C17"
+		(property "Reference" "C12"
 			(at 233.68 100.3299 0)
 			(effects
 				(font
@@ -2628,7 +2628,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "C17")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2644,7 +2644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b2b0691-fb34-4a55-9d81-77fe33427ef3")
-		(property "Reference" "R25"
+		(property "Reference" "R14"
 			(at 121.92 121.92 90)
 			(effects
 				(font
@@ -2705,7 +2705,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R25")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2721,7 +2721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ecc1a9f-2da2-4a9d-b520-39a133a224f6")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 88.9 67.31 0)
 			(effects
 				(font
@@ -2771,7 +2771,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2787,7 +2787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42b70e0e-6268-40f7-bb9c-32ba1794700d")
-		(property "Reference" "C19"
+		(property "Reference" "C14"
 			(at 93.98 118.11 90)
 			(effects
 				(font
@@ -2848,7 +2848,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "C19")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2864,7 +2864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47a38d8c-c29d-4d7d-9395-0952b9df166f")
-		(property "Reference" "R19"
+		(property "Reference" "R8"
 			(at 143.51 82.5499 0)
 			(effects
 				(font
@@ -2927,7 +2927,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R19")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2943,7 +2943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bf73320-44ad-4ad5-a5c0-9db548945700")
-		(property "Reference" "C15"
+		(property "Reference" "C8"
 			(at 93.98 67.31 90)
 			(effects
 				(font
@@ -3004,7 +3004,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "C15")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3019,7 +3019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56bc367e-854e-4954-a527-58ae867f3049")
-		(property "Reference" "C18"
+		(property "Reference" "C13"
 			(at 107.95 105.41 90)
 			(effects
 				(font
@@ -3080,7 +3080,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "C18")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3097,7 +3097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "610db9f4-e3ca-4c7d-ada1-67432b8d6595")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 176.53 95.2499 0)
 			(effects
 				(font
@@ -3214,7 +3214,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "U3")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -3231,7 +3231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61c2dab1-4820-4478-923f-75fbca82fa2a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR013"
 			(at 177.8 88.9 0)
 			(effects
 				(font
@@ -3281,7 +3281,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "#PWR025")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3296,7 +3296,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b7b7f75-dd62-4381-84d6-f8ffe9ab2432")
-		(property "Reference" "R21"
+		(property "Reference" "R11"
 			(at 105.156 116.84 90)
 			(effects
 				(font
@@ -3359,7 +3359,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R21")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3375,7 +3375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "765c2742-2f7a-4f0b-ab7a-200e08dc0957")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 107.95 138.43 0)
 			(effects
 				(font
@@ -3490,7 +3490,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "U3")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -3506,7 +3506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7750835b-432d-41f2-a0ed-b03fbdf95a96")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR016"
 			(at 88.9 118.11 0)
 			(effects
 				(font
@@ -3556,7 +3556,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "#PWR027")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3571,7 +3571,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81fd4d85-a550-4e4c-9002-20e10b47a5b6")
-		(property "Reference" "C14"
+		(property "Reference" "C7"
 			(at 107.95 54.61 90)
 			(effects
 				(font
@@ -3632,7 +3632,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "C14")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3648,7 +3648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85cede61-2cf5-47df-b972-73351d879885")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 107.95 87.63 0)
 			(effects
 				(font
@@ -3763,7 +3763,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3779,7 +3779,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "86d4b2ef-2b5d-44b9-92e3-d9ecc53c1012")
-		(property "Reference" "R20"
+		(property "Reference" "R9"
 			(at 222.25 90.1699 0)
 			(effects
 				(font
@@ -3842,7 +3842,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R20")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3858,7 +3858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8eeab58d-aae7-48dd-ac85-c5d4b0936bfe")
-		(property "Reference" "R15"
+		(property "Reference" "R5"
 			(at 86.36 67.3099 0)
 			(effects
 				(font
@@ -3921,7 +3921,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R15")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3937,7 +3937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92803485-991c-42e5-8fcc-2f2a2ab8680a")
-		(property "Reference" "R18"
+		(property "Reference" "R7"
 			(at 121.92 71.12 90)
 			(effects
 				(font
@@ -3998,7 +3998,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R18")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4014,7 +4014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac2682c8-ecc3-4ddb-b353-03ab8fcc7bd9")
-		(property "Reference" "C22"
+		(property "Reference" "C10"
 			(at 186.69 95.2499 0)
 			(effects
 				(font
@@ -4077,7 +4077,7 @@
 		(instances
 			(project ""
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "C22")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4093,7 +4093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac30ede0-042e-45fe-b386-09a32d3d70f4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR017"
 			(at 146.05 146.05 0)
 			(effects
 				(font
@@ -4143,7 +4143,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "#PWR032")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4159,7 +4159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8181a69-ea28-4615-83a0-71bf6a4344dd")
-		(property "Reference" "R22"
+		(property "Reference" "R12"
 			(at 86.36 118.1099 0)
 			(effects
 				(font
@@ -4222,7 +4222,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R22")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4238,7 +4238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b86ed297-a2b4-4912-bb2b-902bd4d4c21f")
-		(property "Reference" "C23"
+		(property "Reference" "C11"
 			(at 198.12 95.2499 0)
 			(effects
 				(font
@@ -4301,7 +4301,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "C23")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4317,7 +4317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0a064fa-430e-4cfe-a694-72fca7ec0f9d")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR014"
 			(at 146.05 95.25 0)
 			(effects
 				(font
@@ -4367,7 +4367,7 @@
 		(instances
 			(project ""
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "#PWR031")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4383,7 +4383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cab3dec2-103b-433b-bb51-4a3f5390729f")
-		(property "Reference" "C16"
+		(property "Reference" "C9"
 			(at 140.97 69.85 90)
 			(effects
 				(font
@@ -4444,7 +4444,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "C16")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4460,7 +4460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb041a4f-986b-4dcc-8f0e-80c6757f0ea7")
-		(property "Reference" "R26"
+		(property "Reference" "R15"
 			(at 143.51 133.3499 0)
 			(effects
 				(font
@@ -4523,7 +4523,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R26")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4539,7 +4539,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d5e75575-6bc6-4763-9ac9-49b240d153f2")
-		(property "Reference" "R17"
+		(property "Reference" "R10"
 			(at 222.25 100.3299 0)
 			(effects
 				(font
@@ -4602,7 +4602,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R17")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4617,7 +4617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f23d220e-9278-4146-8997-0d23119b9f8a")
-		(property "Reference" "C20"
+		(property "Reference" "C15"
 			(at 140.97 120.65 90)
 			(effects
 				(font
@@ -4678,7 +4678,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "C20")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4693,7 +4693,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9d02108-7185-416f-8647-cc66311f9e5e")
-		(property "Reference" "R2"
+		(property "Reference" "R13"
 			(at 105.156 119.38 90)
 			(effects
 				(font
@@ -4756,7 +4756,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R2")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4771,7 +4771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbb82b35-aa11-4e4c-9586-26ae67dc7edc")
-		(property "Reference" "R14"
+		(property "Reference" "R4"
 			(at 105.156 66.04 90)
 			(effects
 				(font
@@ -4834,7 +4834,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R14")
+					(reference "R4")
 					(unit 1)
 				)
 			)

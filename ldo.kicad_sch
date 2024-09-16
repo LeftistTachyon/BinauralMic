@@ -1241,7 +1241,7 @@
 	)
 	(text "f_{C} = 3.747kHz\n|H(f = 48kHz)| = -39.9dB"
 		(exclude_from_sim no)
-		(at 179.705 88.9 0)
+		(at 180.34 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1252,7 +1252,7 @@
 	)
 	(text "LDO + Input Filtering"
 		(exclude_from_sim no)
-		(at 146.685 74.93 0)
+		(at 147.32 74.93 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1264,7 +1264,7 @@
 	)
 	(text "f_{C} = 3.747kHz"
 		(exclude_from_sim no)
-		(at 92.71 90.805 0)
+		(at 92.71 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)

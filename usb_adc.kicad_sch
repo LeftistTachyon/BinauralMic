@@ -2970,7 +2970,7 @@
 	)
 	(text "USB ADC"
 		(exclude_from_sim no)
-		(at 111.76 48.895 0)
+		(at 111.76 49.53 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2982,7 +2982,7 @@
 	)
 	(text "Pierce Oscillator (12MHz)"
 		(exclude_from_sim no)
-		(at 173.99 92.075 0)
+		(at 173.99 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2994,7 +2994,7 @@
 	)
 	(text "USB D+ Pull Up Logic"
 		(exclude_from_sim no)
-		(at 173.99 40.005 0)
+		(at 173.99 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3006,7 +3006,7 @@
 	)
 	(text "Suspension Indication LED"
 		(exclude_from_sim no)
-		(at 142.875 69.85 90)
+		(at 143.51 69.85 90)
 		(effects
 			(font
 				(size 1.27 1.27)

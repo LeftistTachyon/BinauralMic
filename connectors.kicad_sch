@@ -2249,7 +2249,7 @@
 	)
 	(rectangle
 		(start 59.69 67.31)
-		(end 135.89 132.08)
+		(end 135.89 133.35)
 		(stroke
 			(width 0)
 			(type default)
@@ -2261,7 +2261,7 @@
 	)
 	(text "USB C Port"
 		(exclude_from_sim no)
-		(at 61.595 69.215 0)
+		(at 62.23 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2273,7 +2273,7 @@
 	)
 	(text "S/PDIF is 75Ω-terminated"
 		(exclude_from_sim no)
-		(at 165.735 85.725 0)
+		(at 166.37 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2284,7 +2284,7 @@
 	)
 	(text "Shown are off-board leads"
 		(exclude_from_sim no)
-		(at 198.12 137.795 0)
+		(at 198.12 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2295,7 +2295,7 @@
 	)
 	(text "Microphone inputs"
 		(exclude_from_sim no)
-		(at 142.875 98.425 0)
+		(at 143.51 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2307,7 +2307,7 @@
 	)
 	(text "S/PDIF I/O (RCA plugs)"
 		(exclude_from_sim no)
-		(at 142.875 60.325 0)
+		(at 143.51 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2319,7 +2319,7 @@
 	)
 	(text "5.1kΩ on CC for allowing pulling power from VBUS"
 		(exclude_from_sim no)
-		(at 60.325 131.445 0)
+		(at 60.96 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2330,7 +2330,7 @@
 	)
 	(text "Low C TVS for ESD protection"
 		(exclude_from_sim no)
-		(at 107.315 115.57 0)
+		(at 107.95 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)

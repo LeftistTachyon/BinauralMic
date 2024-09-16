@@ -3304,6 +3304,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "771-PESD3V3Y1BSFYL"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "605e999b-d021-4f31-97fe-1121a6bbf478")
 		)
@@ -3519,6 +3528,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "771-PESD3V3Y1BSFYL"
+			(at 96.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1155507e-32b2-4543-a0e0-cba2dc18f84c")
 		)
@@ -3715,6 +3733,15 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PESD3V3Y1BSFYL"
 			(at 161.29 77.47 0)
 			(effects
 				(font

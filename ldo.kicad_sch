@@ -1753,6 +1753,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "771-PESD3V3Y1BSFYL"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "46230c1c-33a7-4c4f-9942-0ddd1b2ba2ac")
 		)

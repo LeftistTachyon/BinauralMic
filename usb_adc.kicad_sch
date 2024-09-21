@@ -1893,16 +1893,34 @@
 		(uuid "4a5eac08-95a9-4865-b673-84430384b75a")
 	)
 	(junction
+		(at 143.51 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4caad14d-ce29-4e02-87ff-af8201d7bc94")
+	)
+	(junction
 		(at 143.51 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e738ac8-a1d8-433a-b164-9750d3877787")
 	)
 	(junction
+		(at 143.51 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64a81d70-c02a-4320-9cb4-7006b0f211fc")
+	)
+	(junction
 		(at 196.85 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70fb8cd2-5267-4b98-98f4-74a0fba29f1d")
+	)
+	(junction
+		(at 138.43 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95bf22fa-060b-482a-a6cd-37eb82cbedf1")
 	)
 	(junction
 		(at 138.43 97.79)
@@ -2016,6 +2034,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 109.22) (xy 154.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072e6b5b-9f74-455d-9864-c4a49984bd47")
+	)
+	(wire
+		(pts
 			(xy 143.51 110.49) (xy 143.51 111.76)
 		)
 		(stroke
@@ -2043,6 +2071,16 @@
 			(type default)
 		)
 		(uuid "0a749f20-2fc5-4711-83e9-1fe8d2dcbd87")
+	)
+	(wire
+		(pts
+			(xy 143.51 121.92) (xy 143.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e20e7cf-5e64-456f-805c-b21e82d82eb2")
 	)
 	(wire
 		(pts
@@ -2286,6 +2324,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 109.22) (xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60785e87-9513-4f90-b7b6-d68111a2a83b")
+	)
+	(wire
+		(pts
 			(xy 63.5 114.3) (xy 63.5 115.57)
 		)
 		(stroke
@@ -2356,7 +2404,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 110.49) (xy 143.51 110.49)
+			(xy 138.43 120.65) (xy 143.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aff93aa-aaa8-4c9b-bc88-3211d2570860")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 138.43 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2373,6 +2431,16 @@
 			(type default)
 		)
 		(uuid "6ff4d3dd-a8aa-44a1-a15b-f9c33bc14fcb")
+	)
+	(wire
+		(pts
+			(xy 138.43 110.49) (xy 138.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71f86bbd-1027-4668-a7f7-30d415068b6a")
 	)
 	(wire
 		(pts
@@ -2556,6 +2624,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 120.65) (xy 154.94 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96aad82d-9fcc-411a-b1d8-e6fbbd0eef2f")
+	)
+	(wire
+		(pts
 			(xy 129.54 87.63) (xy 138.43 87.63)
 		)
 		(stroke
@@ -2626,6 +2704,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 119.38) (xy 138.43 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebe91a4-e937-49fc-95f5-d01e45afbc5f")
+	)
+	(wire
+		(pts
 			(xy 132.08 80.01) (xy 132.08 82.55)
 		)
 		(stroke
@@ -2663,6 +2751,26 @@
 			(type default)
 		)
 		(uuid "bf4c61b0-6b3e-4231-838c-7bf6d6f4d150")
+	)
+	(wire
+		(pts
+			(xy 154.94 119.38) (xy 154.94 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6caba0c-9885-4bc7-a422-1adf06f4a2e0")
+	)
+	(wire
+		(pts
+			(xy 138.43 110.49) (xy 143.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cae61db6-865f-4ebf-873b-55c0c888764b")
 	)
 	(wire
 		(pts
@@ -2726,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 110.49) (xy 143.51 105.41)
+			(xy 143.51 110.49) (xy 143.51 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2853,6 +2961,16 @@
 			(type default)
 		)
 		(uuid "df3c4bf6-777d-40a0-b415-d588c4391edd")
+	)
+	(wire
+		(pts
+			(xy 143.51 109.22) (xy 143.51 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7500790-cfe8-4304-9424-088c8e2d617b")
 	)
 	(wire
 		(pts
@@ -4769,6 +4887,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 138.43 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d292d8e6-1c8b-4f72-9576-830ceff9d6fd")
+		(property "Reference" "C24"
+			(at 134.62 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 134.62 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 137.4648 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA106K010TNJ"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f24ae6bf-2710-4118-8dcd-13711a9a421d")
+		)
+		(pin "2"
+			(uuid "cc9f9f7c-0a0d-456c-954c-d41f85f3b5c6")
+		)
+		(instances
+			(project "BinauralMic"
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/1f1de066-50ca-4c06-9457-56cc25f04510"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 132.08 60.96 0)
 		(mirror y)
@@ -5066,6 +5263,85 @@
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/1f1de066-50ca-4c06-9457-56cc25f04510"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc0ae72d-9482-42a2-bfa8-f4e895748dad")
+		(property "Reference" "C23"
+			(at 158.75 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 158.75 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 155.9052 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
+			(at 154.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-TAJA106K010TNJ"
+			(at 154.94 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d394d06-606e-4483-9452-7a1971a76e82")
+		)
+		(pin "2"
+			(uuid "9a40adf5-c9fa-4014-a1fb-2e59e51c0a78")
+		)
+		(instances
+			(project "BinauralMic"
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/1f1de066-50ca-4c06-9457-56cc25f04510"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5548,7 +5824,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 120.65 0)
+		(at 143.51 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5557,7 +5833,7 @@
 		(fields_autoplaced yes)
 		(uuid "fce5de0a-46ff-46ee-93b3-ad62839a4b3b")
 		(property "Reference" "#PWR029"
-			(at 143.51 127 0)
+			(at 143.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5842,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 125.73 0)
+			(at 143.51 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +5850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 120.65 0)
+			(at 143.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +5859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 120.65 0)
+			(at 143.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +5868,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 120.65 0)
+			(at 143.51 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

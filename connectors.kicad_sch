@@ -2625,7 +2625,7 @@
 		)
 		(uuid "c2c470dc-a6c8-4cb4-9ecd-e78deac9387e")
 	)
-	(text "S/PDIF I/O (RCA plugs)"
+	(text "S/PDIF I/O (RCA plugs) _{(omitted)}"
 		(exclude_from_sim no)
 		(at 143.51 60.96 0)
 		(effects
@@ -3017,9 +3017,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4b413695-d2cd-47f2-b5d3-909f1336b114")
 		(property "Reference" "J1"
@@ -3947,9 +3947,9 @@
 		(at 161.29 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e41ffa44-5d4d-480a-9480-376d8818edda")
 		(property "Reference" "D1"
@@ -4027,9 +4027,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fcb7f212-17c3-4a0d-b707-cbd6c33c5af6")
 		(property "Reference" "R1"

@@ -1826,6 +1826,12 @@
 		(uuid "296ee2c9-cfb9-4789-9340-aacce202c392")
 	)
 	(junction
+		(at 124.46 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42cb3d1f-db5b-4717-ac38-357320aa45fb")
+	)
+	(junction
 		(at 171.45 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1850,16 +1856,22 @@
 		(uuid "85cc0ac7-d917-4d2b-8b73-82b60123860b")
 	)
 	(junction
-		(at 111.76 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85f75a9f-d830-4fa9-bad1-7a2140d869ab")
-	)
-	(junction
 		(at 171.45 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9618791f-ee10-4690-a942-0a2d8ffc27cf")
+	)
+	(junction
+		(at 116.84 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a4ed33c-fa4c-44a4-90f0-e31b15db9ab1")
+	)
+	(junction
+		(at 115.57 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a127fff8-effd-4f1e-a4e3-f76a8fbfbd86")
 	)
 	(junction
 		(at 161.29 72.39)
@@ -1923,6 +1935,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 90.17) (xy 111.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3eceba-511e-48e5-80b2-44d340f83199")
+	)
+	(wire
+		(pts
 			(xy 171.45 120.65) (xy 172.72 120.65)
 		)
 		(stroke
@@ -1983,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 80.01) (xy 116.84 80.01)
+			(xy 125.73 80.01) (xy 124.46 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2000,6 +2022,16 @@
 			(type default)
 		)
 		(uuid "4041d4ad-e9c2-40fb-b235-144cbc06ef6c")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443c7eab-d4fe-4cda-93af-b94e6ce80ac1")
 	)
 	(wire
 		(pts
@@ -2043,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 90.17) (xy 111.76 91.44)
+			(xy 115.57 90.17) (xy 115.57 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2100,6 +2132,16 @@
 			(type default)
 		)
 		(uuid "6b1f35ca-d227-4b34-8350-9a6f749b837b")
+	)
+	(wire
+		(pts
+			(xy 124.46 88.9) (xy 124.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fcc50b0-6710-426a-bf09-20dac1e4785f")
 	)
 	(wire
 		(pts
@@ -2173,6 +2215,26 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 80.01) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8584251b-c6d1-4169-9096-1c565ddcd1cb")
+	)
+	(wire
+		(pts
+			(xy 116.84 90.17) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8834b854-f40d-4587-b543-dd762cc63641")
+	)
+	(wire
+		(pts
 			(xy 171.45 133.35) (xy 167.64 133.35)
 		)
 		(stroke
@@ -2183,7 +2245,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 95.25) (xy 116.84 95.25)
+			(xy 106.68 95.25) (xy 107.95 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2253,6 +2315,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 90.17) (xy 116.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b914cc70-d0ae-43d6-9168-a948b886ae4d")
+	)
+	(wire
+		(pts
 			(xy 167.64 102.87) (xy 171.45 102.87)
 		)
 		(stroke
@@ -2280,16 +2352,6 @@
 			(type default)
 		)
 		(uuid "bb2c2fc5-e675-4378-9a37-212539b28c18")
-	)
-	(wire
-		(pts
-			(xy 111.76 90.17) (xy 116.84 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd1edee9-ad16-4ca1-9d47-7c3182d77ff9")
 	)
 	(wire
 		(pts
@@ -2656,7 +2718,7 @@
 	)
 	(hierarchical_label "D-"
 		(shape bidirectional)
-		(at 116.84 95.25 0)
+		(at 107.95 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2727,8 +2789,86 @@
 		(uuid "f16630a1-290d-412d-9e2c-87936b9b18a2")
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 124.46 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04f01fde-7c09-4389-8349-66e6b771e9ab")
+		(property "Reference" "D5"
+			(at 127 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V5C1BL"
+			(at 127.635 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PESD5V5C1BL-3162447.pdf"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PESD5V5C1BLYL "
+			(at 124.46 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "087bfecc-8e2c-4881-aff5-035edee4afa3")
+		)
+		(pin "1"
+			(uuid "a21bdfd3-37b1-4b62-b676-7df00236b701")
+		)
+		(instances
+			(project "BinauralMic"
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 111.76 91.44 0)
+		(at 115.57 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2737,7 +2877,7 @@
 		(fields_autoplaced yes)
 		(uuid "37facaba-5542-41d2-bfb1-4ea2de54baa0")
 		(property "Reference" "#PWR05"
-			(at 111.76 97.79 0)
+			(at 115.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2886,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +2894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 91.44 0)
+			(at 115.57 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 91.44 0)
+			(at 115.57 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2912,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 91.44 0)
+			(at 115.57 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3219,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5335a8aa-5a57-4853-9be0-26ea19714430")
 		(property "Reference" "D2"
 			(at 119.38 83.8199 90)
@@ -3091,7 +3230,7 @@
 			)
 		)
 		(property "Value" "PESD5V5C1BL"
-			(at 119.38 86.3599 90)
+			(at 120.65 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)

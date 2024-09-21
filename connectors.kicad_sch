@@ -3596,7 +3596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa556109-7550-4e33-98e9-9d8a39fd6eae")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 110.49 104.1399 0)
 			(effects
 				(font
@@ -3663,7 +3663,7 @@
 		(instances
 			(project ""
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3679,7 +3679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2790fc0-23b7-41de-88b8-bc1b9fd0ef4e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 72.39 127 0)
 			(effects
 				(font
@@ -3729,7 +3729,7 @@
 		(instances
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)

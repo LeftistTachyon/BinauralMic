@@ -1444,6 +1444,254 @@
 				)
 			)
 		)
+		(symbol "Power_Protection:ESDA5V3L"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.715 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ESDA5V3L"
+				(at 5.715 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at -15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdal.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT23"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb esd protection suppression transient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESDA5V3L_0_0"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESDA5V3L_0_1"
+				(rectangle
+					(start -4.445 2.54)
+					(end 4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.905 1.27) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -1.905 0) (xy -3.175 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 1.27) (xy 3.175 1.27) (xy 3.302 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 1.905 0) (xy 3.175 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESDA5V3L_1_1"
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1572,6 +1820,12 @@
 		(uuid "24ab594c-27fc-4b9a-863b-238badd60c58")
 	)
 	(junction
+		(at 106.68 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "296ee2c9-cfb9-4789-9340-aacce202c392")
+	)
+	(junction
 		(at 171.45 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1612,12 +1866,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a25e1eaa-e6f0-4f4c-be97-189b291cc8b8")
-	)
-	(junction
-		(at 116.84 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a972d68f-ae3f-4a0e-ac00-95bb4769f710")
 	)
 	(junction
 		(at 171.45 120.65)
@@ -1685,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 106.68) (xy 96.52 107.95)
+			(xy 104.14 110.49) (xy 104.14 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +2033,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 95.25) (xy 116.84 95.25)
+			(xy 92.71 95.25) (xy 106.68 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1905,6 +2153,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 99.06) (xy 101.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821ae891-ff38-4b74-b7db-4845e108a74f")
+	)
+	(wire
+		(pts
 			(xy 92.71 97.79) (xy 96.52 97.79)
 		)
 		(stroke
@@ -1925,7 +2183,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 119.38 95.25)
+			(xy 106.68 95.25) (xy 116.84 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1975,16 +2233,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 106.68) (xy 116.84 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd2556c-44ef-490e-93f9-5223f34c4b9d")
-	)
-	(wire
-		(pts
 			(xy 176.53 72.39) (xy 161.29 72.39)
 		)
 		(stroke
@@ -1992,16 +2240,6 @@
 			(type default)
 		)
 		(uuid "b15754ae-8254-46a0-a416-098dcfb881e4")
-	)
-	(wire
-		(pts
-			(xy 116.84 95.25) (xy 116.84 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b19216fe-cc79-4178-801a-00fae28f7ae9")
 	)
 	(wire
 		(pts
@@ -2022,6 +2260,26 @@
 			(type default)
 		)
 		(uuid "ba608c9a-758a-4d16-ac1a-893d8994ce21")
+	)
+	(wire
+		(pts
+			(xy 96.52 99.06) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "badc6bfb-66c9-4882-be88-0b25a7a1d21c")
+	)
+	(wire
+		(pts
+			(xy 106.68 95.25) (xy 106.68 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2c2fc5-e675-4378-9a37-212539b28c18")
 	)
 	(wire
 		(pts
@@ -2330,7 +2588,7 @@
 	)
 	(text "Low C TVS for ESD protection"
 		(exclude_from_sim no)
-		(at 107.95 115.57 0)
+		(at 104.14 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2398,7 +2656,7 @@
 	)
 	(hierarchical_label "D-"
 		(shape bidirectional)
-		(at 119.38 95.25 0)
+		(at 116.84 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2608,72 +2866,6 @@
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
 					(reference "MK1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41b5cd67-09b3-481f-a339-ec98da4e5de9")
-		(property "Reference" "#PWR07"
-			(at 116.84 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e761916-2dd9-41b6-995e-6632184be64e")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2960,7 +3152,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 107.95 0)
+		(at 104.14 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2969,7 +3161,7 @@
 		(fields_autoplaced yes)
 		(uuid "577bc994-b154-481f-9d8f-5ed94088dcff")
 		(property "Reference" "#PWR06"
-			(at 96.52 114.3 0)
+			(at 104.14 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +3170,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 113.03 0)
+			(at 104.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 107.95 0)
+			(at 104.14 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +3187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 107.95 0)
+			(at 104.14 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,7 +3196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 107.95 0)
+			(at 104.14 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,85 +3442,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 116.84 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86531d78-c913-42ab-b994-2691825ff8f7")
-		(property "Reference" "D4"
-			(at 119.38 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD3V3Y1BSF"
-			(at 119.38 104.1399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 116.84 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PESD3V3Y1BSF-1370637.pdf"
-			(at 116.84 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 116.84 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD3V3Y1BSFYL"
-			(at 116.84 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "605e999b-d021-4f31-97fe-1121a6bbf478")
-		)
-		(pin "1"
-			(uuid "817b350a-1e4c-441e-a4e9-2f1b4137a5ad")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 104.14 85.09 90)
 		(unit 1)
@@ -3474,35 +3587,45 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS")
-		(at 96.52 102.87 90)
+		(lib_id "Power_Protection:ESDA5V3L")
+		(at 104.14 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a39c31ba-b512-402d-886b-0c9acece8381")
-		(property "Reference" "D3"
-			(at 99.06 101.5999 90)
+		(uuid "aa556109-7550-4e33-98e9-9d8a39fd6eae")
+		(property "Reference" "D5"
+			(at 110.49 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "PESD3V3Y1BSF"
-			(at 99.06 104.1399 90)
+		(property "Value" "PESD2USB3UVT-QR"
+			(at 110.49 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 96.52 102.87 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PESD2USB3UVT_Q-3436360.pdf"
+			(at 104.14 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,8 +3633,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PESD3V3Y1BSF-1370637.pdf"
-			(at 96.52 102.87 0)
+		(property "Description" "TVS Diode Array, 2 Channels, SOT23"
+			(at 104.14 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,34 +3642,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 96.52 102.87 0)
+		(property "Mouser Part Number" "771-PESD2USB3UVT-QR"
+			(at 104.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Mouser Part Number" "771-PESD3V3Y1BSFYL"
-			(at 96.52 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1155507e-32b2-4543-a0e0-cba2dc18f84c")
 		)
 		(pin "1"
-			(uuid "010db8ea-0dd9-4462-910e-0242b23dc741")
+			(uuid "c600531c-47e9-4f6d-b902-94754bb31e7d")
+		)
+		(pin "2"
+			(uuid "4a8876ae-a992-423a-9eaa-9cf50415be4a")
+		)
+		(pin "3"
+			(uuid "630fb989-d57f-4764-993e-8f758be74a4c")
 		)
 		(instances
 			(project ""
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/ed99070c-0835-415c-8078-0f260c71dd6d"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -3705,7 +3822,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PESD3V3Y1BSF"
+		(property "Value" "CG0603MLU-3.3E"
 			(at 163.83 78.7399 90)
 			(effects
 				(font
@@ -3714,7 +3831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 161.29 77.47 0)
 			(effects
 				(font
@@ -3723,7 +3840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/916/PESD3V3Y1BSF-1370637.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/MLU-778323.pdf"
 			(at 161.29 77.47 0)
 			(effects
 				(font
@@ -3741,7 +3858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD3V3Y1BSFYL"
+		(property "Mouser Part Number" "652-CG0603MLU-3.3E"
 			(at 161.29 77.47 0)
 			(effects
 				(font

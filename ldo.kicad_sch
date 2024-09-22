@@ -1076,7 +1076,7 @@
 		)
 		(uuid "bead23fe-18f9-4263-b45f-161fc604365b")
 	)
-	(hierarchical_label "VDD"
+	(hierarchical_label "VCC_{A}"
 		(shape output)
 		(at 180.34 96.52 90)
 		(fields_autoplaced yes)

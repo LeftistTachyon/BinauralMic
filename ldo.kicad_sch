@@ -1726,8 +1726,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 170.18 97.79 270)
-		(mirror x)
+		(at 170.18 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)

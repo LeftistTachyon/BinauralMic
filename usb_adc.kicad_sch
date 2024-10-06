@@ -3041,7 +3041,7 @@
 		)
 		(uuid "57d71c17-5379-4b1c-8370-513b3f2eca8b")
 	)
-	(label "D-_R"
+	(label "D_R-"
 		(at 88.9 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3074,7 +3074,7 @@
 		)
 		(uuid "a6fdbbe8-4e7e-4e37-a1c1-cfd3aac43a14")
 	)
-	(label "D+_R"
+	(label "D_R+"
 		(at 88.9 82.55 0)
 		(fields_autoplaced yes)
 		(effects

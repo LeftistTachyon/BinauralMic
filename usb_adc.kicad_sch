@@ -3554,7 +3554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16p"
+		(property "Value" "36p"
 			(at 223.52 126.9999 0)
 			(effects
 				(font
@@ -3572,7 +3572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/C0GNP0_Dielectric-2952720.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/upy_np0x7r_mv_100_to_630v-3461223.pdf"
 			(at 219.71 125.73 0)
 			(effects
 				(font
@@ -3590,7 +3590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-06035A160FAT2A"
+		(property "Mouser Part Number" "603-CC603FRNPO9BN360"
 			(at 219.71 125.73 0)
 			(effects
 				(font
@@ -5011,7 +5011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16p"
+		(property "Value" "36p"
 			(at 193.04 126.9999 0)
 			(effects
 				(font
@@ -5029,7 +5029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/C0GNP0_Dielectric-2952720.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/upy_np0x7r_mv_100_to_630v-3461223.pdf"
 			(at 196.85 125.73 0)
 			(effects
 				(font
@@ -5047,7 +5047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-06035A160FAT2A"
+		(property "Mouser Part Number" "603-CC603FRNPO9BN360"
 			(at 196.85 125.73 0)
 			(effects
 				(font

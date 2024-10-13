@@ -496,7 +496,7 @@
       "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BinauralMic.step",
       "svg": "",
       "vrml": ""
     },

@@ -6,12 +6,266 @@
 	(paper "A4")
 	(title_block
 		(title "Microphone Preamplifier")
-		(date "2024-09-15")
-		(rev "1")
+		(date "2025-07-06")
+		(rev "2")
 		(company "Tachyon PCBAs")
-		(comment 1 "first try surely")
+		(comment 1 "second try surely")
 	)
 	(lib_symbols
+		(symbol "Amplifier_Operational:MC33078"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MC33078"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low Noise, Dual Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MC33078_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MC33078_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MC33078_3_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -151,293 +405,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Opamp_Dual"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Opamp_Dual"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual operational amplifier"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "kicad_builtin_opamp_dual"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Opamp_Dual_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Opamp_Dual_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Opamp_Dual_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -562,7 +529,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3VA"
+		(symbol "power:+5VA"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -583,7 +550,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3VA"
+			(property "Value" "+5VA"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -609,7 +576,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(property "Description" "Power symbol creates a global label with name \"+5VA\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -627,7 +594,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3VA_0_1"
+			(symbol "+5VA_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -665,132 +632,7 @@
 					)
 				)
 			)
-			(symbol "+3.3VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
+			(symbol "+5VA_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -928,7 +770,7 @@
 	)
 	(rectangle
 		(start 162.56 73.66)
-		(end 227.33 116.84)
+		(end 224.79 116.84)
 		(stroke
 			(width 0)
 			(type default)
@@ -987,9 +829,9 @@
 		)
 		(uuid "652bca07-89bc-48ce-b00d-f5ea0c8cece6")
 	)
-	(text "C20\ndischarge\npath"
+	(text "discharge\npath"
 		(exclude_from_sim no)
-		(at 138.43 134.62 0)
+		(at 137.668 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -998,9 +840,9 @@
 		)
 		(uuid "66430694-3dfc-4185-a659-7c78af1c40a6")
 	)
-	(text "Backup VCOM\nreference"
+	(text "VCOM\nreference"
 		(exclude_from_sim no)
-		(at 212.09 85.09 0)
+		(at 207.01 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1055,9 +897,9 @@
 		)
 		(uuid "f5f740e4-62fb-4fab-9426-7cbcbae3c7d1")
 	)
-	(text "C16\ndischarge\npath"
+	(text "discharge\npath"
 		(exclude_from_sim no)
-		(at 138.43 85.09 0)
+		(at 137.668 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1097,16 +939,10 @@
 		(uuid "202d7fac-a5be-4c6f-9620-2b8c2bef9bd5")
 	)
 	(junction
-		(at 212.09 106.68)
+		(at 207.01 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22fc1ba8-827b-4324-8411-2fa1b49cf051")
-	)
-	(junction
-		(at 182.88 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "256f67af-70d3-4830-8e0b-45b2380b6a6e")
 	)
 	(junction
 		(at 88.9 74.93)
@@ -1133,7 +969,7 @@
 		(uuid "4915aa7b-af79-49aa-820a-718243af5fce")
 	)
 	(junction
-		(at 194.31 106.68)
+		(at 189.23 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b7f4c57-5420-4dbb-bfdf-dcbce3676199")
@@ -1145,19 +981,7 @@
 		(uuid "4ceee399-71f0-4609-8789-b7b8ab1ca1eb")
 	)
 	(junction
-		(at 116.84 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57f9ef0c-8a4a-4aa2-b5f4-b54b9823e54d")
-	)
-	(junction
-		(at 116.84 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58659e8b-390b-4d57-a1dd-2af566c6e73e")
-	)
-	(junction
-		(at 194.31 86.36)
+		(at 189.23 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a5e97dd-5190-4fb6-a0dd-ad44e96d13c1")
@@ -1175,13 +999,7 @@
 		(uuid "8acc5c06-c527-44ef-9a36-ae1d34039412")
 	)
 	(junction
-		(at 182.88 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "977b87df-a3db-47be-a73d-fa305b2b5963")
-	)
-	(junction
-		(at 212.09 96.52)
+		(at 207.01 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba1599e3-1ec3-49b6-a02c-5755694bc2af")
@@ -1193,19 +1011,7 @@
 		(uuid "c62ceccb-2726-43e1-abb9-88f2862ec804")
 	)
 	(junction
-		(at 99.06 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddcfb549-b069-40a8-9194-a0c66c65d08a")
-	)
-	(junction
-		(at 99.06 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f57a5e69-c4aa-4788-916b-0ec87991e3e8")
-	)
-	(junction
-		(at 217.17 96.52)
+		(at 212.09 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdf9fa6e-9eed-4b44-aab6-ea7bc7fd72b1")
@@ -1228,16 +1034,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 67.31) (xy 99.06 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d93b829-eb96-4a43-b1fd-8936de9a508f")
-	)
-	(wire
-		(pts
 			(xy 116.84 62.23) (xy 111.76 62.23)
 		)
 		(stroke
@@ -1248,7 +1044,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 96.52) (xy 218.44 96.52)
+			(xy 212.09 96.52) (xy 213.36 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1258,17 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 67.31) (xy 116.84 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14c030da-cb87-4021-b9d3-a74e344ce27d")
-	)
-	(wire
-		(pts
-			(xy 212.09 86.36) (xy 212.09 87.63)
+			(xy 207.01 86.36) (xy 207.01 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1308,7 +1094,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 106.68) (xy 212.09 106.68)
+			(xy 212.09 106.68) (xy 207.01 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 95.25) (xy 212.09 96.52)
+			(xy 207.01 95.25) (xy 207.01 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1368,33 +1154,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 96.52) (xy 212.09 97.79)
+			(xy 207.01 96.52) (xy 207.01 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "279e698a-fabd-425e-b63b-f44da2d8b2ba")
-	)
-	(wire
-		(pts
-			(xy 116.84 118.11) (xy 116.84 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28939cf5-da04-4131-ae5b-d1a02acd61e0")
-	)
-	(wire
-		(pts
-			(xy 99.06 118.11) (xy 104.14 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b302b9a-4945-4466-aabc-1467f1149ca1")
 	)
 	(wire
 		(pts
@@ -1408,7 +1174,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 62.23) (xy 99.06 67.31)
+			(xy 99.06 62.23) (xy 99.06 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1428,7 +1194,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 67.31) (xy 116.84 69.85)
+			(xy 116.84 62.23) (xy 116.84 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 118.11) (xy 116.84 113.03)
+			(xy 116.84 113.03) (xy 116.84 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1274,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 106.68) (xy 177.8 106.68)
+			(xy 177.8 106.68) (xy 189.23 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1538,7 +1304,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 96.52) (xy 217.17 97.79)
+			(xy 212.09 96.52) (xy 212.09 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1548,7 +1314,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 118.11) (xy 99.06 120.65)
+			(xy 99.06 113.03) (xy 99.06 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1568,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 105.41) (xy 212.09 106.68)
+			(xy 207.01 105.41) (xy 207.01 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1608,23 +1374,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 86.36) (xy 194.31 92.71)
+			(xy 189.23 86.36) (xy 189.23 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "64761bce-564f-4099-995c-82334d41a186")
-	)
-	(wire
-		(pts
-			(xy 182.88 100.33) (xy 182.88 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "685c2191-cee3-44a0-9aaf-e57e4c1aed0f")
 	)
 	(wire
 		(pts
@@ -1648,16 +1404,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 182.88 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f1ffef7-4b79-4b4f-a14a-e1eda34cbd46")
-	)
-	(wire
-		(pts
 			(xy 88.9 114.3) (xy 88.9 115.57)
 		)
 		(stroke
@@ -1665,16 +1411,6 @@
 			(type default)
 		)
 		(uuid "74d64cf0-9d56-4936-a669-2c6c914e5dfc")
-	)
-	(wire
-		(pts
-			(xy 194.31 106.68) (xy 182.88 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8231bf21-3a74-4952-a9ef-c03a651c6dce")
 	)
 	(wire
 		(pts
@@ -1718,17 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 67.31) (xy 116.84 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90795d98-f25d-49d6-a655-9750e12d4c4c")
-	)
-	(wire
-		(pts
-			(xy 177.8 86.36) (xy 182.88 86.36)
+			(xy 177.8 86.36) (xy 189.23 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1758,7 +1484,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 86.36) (xy 212.09 86.36)
+			(xy 189.23 86.36) (xy 207.01 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1778,7 +1504,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 96.52) (xy 217.17 96.52)
+			(xy 207.01 96.52) (xy 212.09 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1808,16 +1534,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 194.31 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6fdbdd1-30b4-45ab-9ed3-1f122af0e0a6")
-	)
-	(wire
-		(pts
 			(xy 177.8 104.14) (xy 177.8 106.68)
 		)
 		(stroke
@@ -1838,7 +1554,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 106.68) (xy 212.09 106.68)
+			(xy 189.23 106.68) (xy 207.01 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1878,16 +1594,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 113.03) (xy 99.06 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d21ec2b1-75df-43c2-beb8-3cdb36e21ceb")
-	)
-	(wire
-		(pts
 			(xy 88.9 123.19) (xy 88.9 125.73)
 		)
 		(stroke
@@ -1895,16 +1601,6 @@
 			(type default)
 		)
 		(uuid "d52b9770-28aa-4380-8b90-2b66bf23e3ad")
-	)
-	(wire
-		(pts
-			(xy 99.06 67.31) (xy 104.14 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d63b368f-0970-42dc-8982-d778d6ecfcbc")
 	)
 	(wire
 		(pts
@@ -1918,7 +1614,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 105.41) (xy 217.17 106.68)
+			(xy 212.09 105.41) (xy 212.09 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1958,7 +1654,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 100.33) (xy 194.31 106.68)
+			(xy 189.23 100.33) (xy 189.23 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1975,16 +1671,6 @@
 			(type default)
 		)
 		(uuid "f8464d3d-0d02-4773-9619-e422f36b8e74")
-	)
-	(wire
-		(pts
-			(xy 111.76 118.11) (xy 116.84 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ede593-a73d-48e7-9253-2bed0e0f26c5")
 	)
 	(wire
 		(pts
@@ -2006,6 +1692,16 @@
 		)
 		(uuid "0a59700e-e9d9-42cc-b8a2-9c17255554b9")
 	)
+	(label "VCOM"
+		(at 97.79 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1730c6bd-6a31-46ef-9cb0-405a91befeed")
+	)
 	(label "VN_{L}"
 		(at 99.06 62.23 180)
 		(effects
@@ -2025,6 +1721,16 @@
 			(justify left bottom)
 		)
 		(uuid "6a612069-6759-40a6-a926-4f501662d61e")
+	)
+	(label "VCOM"
+		(at 97.79 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86ac9fd7-2796-42ce-a9fd-6a69737bfc46")
 	)
 	(label "VOUT_{L}_R"
 		(at 127 77.47 0)
@@ -2067,17 +1773,6 @@
 		)
 		(uuid "6b300430-4d07-44f9-9a7c-32fa405a9142")
 	)
-	(hierarchical_label "VCOM"
-		(shape passive)
-		(at 97.79 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "879900f8-fdf8-4de1-83c1-cec278b667f2")
-	)
 	(hierarchical_label "VRAW_{R}"
 		(shape input)
 		(at 87.63 127 180)
@@ -2091,7 +1786,7 @@
 	)
 	(hierarchical_label "VCOM"
 		(shape passive)
-		(at 218.44 96.52 0)
+		(at 213.36 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2110,17 +1805,6 @@
 			(justify left)
 		)
 		(uuid "a02bdc44-bff6-41ab-8620-3bb093d60cf3")
-	)
-	(hierarchical_label "VCOM"
-		(shape passive)
-		(at 97.79 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9fce899-e640-4694-862a-0671c9f2fc15")
 	)
 	(hierarchical_label "VIN_{R}"
 		(shape output)
@@ -2151,7 +1835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "24k"
 			(at 110.744 68.58 90)
 			(effects
 				(font
@@ -2169,7 +1853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 107.95 69.85 0)
 			(effects
 				(font
@@ -2187,13 +1871,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERA-3AEB183V"
+		(property "Mouser Part Number" "03-RT0603DRD0724KL"
 			(at 107.95 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2279,16 +1971,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 217.17 101.6 180)
+		(at 212.09 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
+		(dnp no)
 		(uuid "38579b1d-5741-4b5d-85d7-86679069d64d")
 		(property "Reference" "C12"
-			(at 220.98 100.3299 0)
+			(at 215.9 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,8 +1987,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 220.98 102.8699 0)
+		(property "Value" "10u"
+			(at 215.9 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +1997,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 216.2048 97.79 0)
+			(at 211.1248 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2006,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
-			(at 217.17 101.6 0)
+			(at 212.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2015,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 217.17 101.6 0)
+			(at 212.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2332,13 +2023,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA475K016R"
-			(at 217.17 101.6 0)
+		(property "Mouser Part Number" "581-TAJA106K016R"
+			(at 212.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -2418,6 +2118,14 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 121.92 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d87bd995-f0d8-4e79-b77d-bf5b01539f54")
 		)
@@ -2434,17 +2142,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 88.9 63.5 0)
+		(lib_id "Amplifier_Operational:MC33078")
+		(at 107.95 77.47 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ecc1a9f-2da2-4a9d-b520-39a133a224f6")
-		(property "Reference" "#PWR011"
-			(at 88.9 67.31 0)
+		(uuid "3b502cc3-1c3e-4708-92bc-82e2c835c0d4")
+		(property "Reference" "U5"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC33078"
+			(at 107.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 107.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,16 +2176,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 88.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 63.5 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+			(at 107.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2469,8 +2185,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 88.9 63.5 0)
+		(property "Description" "Low Noise, Dual Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 107.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,22 +2194,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 63.5 0)
+		(property "Mouser Part Number" "863-MC33078DR2G"
+			(at 107.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "3"
+			(uuid "fd1d0372-dd4d-4b25-a521-2628f856eeae")
+		)
+		(pin "5"
+			(uuid "e1106b11-40ca-42d3-bbe3-4aed06b34b61")
+		)
+		(pin "6"
+			(uuid "1f6215fe-fede-400c-ac26-75b01c393d50")
+		)
+		(pin "8"
+			(uuid "154f4203-b35d-444b-8e9d-66bdd8043ebc")
+		)
+		(pin "4"
+			(uuid "0d3f9d8d-2976-44a2-8e4c-e50429b14a7e")
+		)
+		(pin "2"
+			(uuid "f3383972-afab-4f74-8b59-6ef487d58b4a")
+		)
+		(pin "7"
+			(uuid "b8abdaca-cc00-4d10-b39b-4347ae37ca47")
 		)
 		(pin "1"
-			(uuid "e02c9617-142d-40c8-8b7e-24a0580da268")
+			(uuid "714e1539-e5bb-4d8a-8ba5-da2c1f198f4d")
 		)
 		(instances
-			(project "BinauralMic"
+			(project ""
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "#PWR011")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2507,18 +2244,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "42b70e0e-6268-40f7-bb9c-32ba1794700d")
 		(property "Reference" "C14"
-			(at 93.98 118.11 90)
+			(at 93.98 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 93.98 120.65 90)
+		(property "Value" "10u"
+			(at 93.98 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,13 +2288,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA475K016R"
+		(property "Mouser Part Number" "581-TAJA106K016R"
 			(at 93.98 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 93.98 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2640,6 +2384,14 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 146.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e5de192a-4ce1-4f3c-8ba2-f87ff0444a48")
 		)
@@ -2663,18 +2415,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4bf73320-44ad-4ad5-a5c0-9db548945700")
 		(property "Reference" "C8"
-			(at 93.98 67.31 90)
+			(at 93.98 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 93.98 69.85 90)
+		(property "Value" "10u"
+			(at 93.98 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,13 +2459,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA475K016R"
+		(property "Mouser Part Number" "581-TAJA106K016R"
 			(at 93.98 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 93.98 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2742,15 +2501,15 @@
 		(dnp no)
 		(uuid "56bc367e-854e-4954-a527-58ae867f3049")
 		(property "Reference" "C13"
-			(at 107.95 105.41 90)
+			(at 107.95 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "68p"
-			(at 107.95 107.95 90)
+		(property "Value" "47p"
+			(at 107.95 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,13 +2543,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "77-VJ0603D680FXPAJ"
+		(property "Mouser Part Number" "77-VJ0603A470JXXCBC"
 			(at 107.95 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "25V"
+			(at 107.95 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2809,481 +2576,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 177.8 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "584d68ef-ad91-4ced-9165-40f45cf95b88")
-		(property "Reference" "#PWR012"
-			(at 177.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 177.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 177.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "508dcebb-b7bf-4353-949c-d215afd2ece3")
-		)
-		(instances
-			(project ""
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 175.26 96.52 0)
-		(mirror y)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "610db9f4-e3ca-4c7d-ada1-67432b8d6595")
-		(property "Reference" "U2"
-			(at 176.53 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TL972QDRQ1"
-			(at 176.53 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl972-q1.pdf?ts=1726304035867"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TL972QDRQ1 "
-			(at 175.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "44feab38-cd2b-421c-9bee-ab675a1ef0f9")
-		)
-		(pin "1"
-			(uuid "5bac1c5e-b89b-42ed-a3d7-96b45638c3fd")
-		)
-		(pin "8"
-			(uuid "942c714b-8bd4-49e7-9749-c9b27a0e53cf")
-		)
-		(pin "2"
-			(uuid "e24e48f6-456a-456d-91d5-3619d1359565")
-		)
-		(pin "6"
-			(uuid "0eb19e7f-31a0-4df2-a5b5-2fb07d4bb30e")
-		)
-		(pin "7"
-			(uuid "f2ec1230-28d9-451b-9365-0fd29f3eb015")
-		)
-		(pin "4"
-			(uuid "b2fd50f9-e8f2-4137-9c93-f1bd2c3df70b")
-		)
-		(pin "3"
-			(uuid "a3f4a90c-f35b-4d8a-b77e-139629507d2c")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b7b7f75-dd62-4381-84d6-f8ffe9ab2432")
-		(property "Reference" "R11"
-			(at 105.156 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 110.744 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 107.95 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/cr-1858361.pdf"
-			(at 107.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-CR0603FX-1004ELF"
-			(at 107.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "adb171df-a554-46b8-abfc-4bde38c25a53")
-		)
-		(pin "1"
-			(uuid "8d2993a9-65bf-40c9-a6a5-249215fe442b")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 107.95 128.27 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "765c2742-2f7a-4f0b-ab7a-200e08dc0957")
-		(property "Reference" "U2"
-			(at 107.95 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL972QDRQ1"
-			(at 107.95 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl972-q1.pdf?ts=1726304035867"
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TL972QDRQ1 "
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "382efc59-4630-4ca2-b343-f37afd519df0")
-		)
-		(pin "1"
-			(uuid "5bac1c5e-b89b-42ed-a3d7-96b45638c3ff")
-		)
-		(pin "8"
-			(uuid "9b1687d1-093a-4158-ba8a-a7983fe36a07")
-		)
-		(pin "2"
-			(uuid "e24e48f6-456a-456d-91d5-3619d1359567")
-		)
-		(pin "6"
-			(uuid "24b20b28-d4c3-4f55-8813-8ef500a0a288")
-		)
-		(pin "7"
-			(uuid "23f206ba-e771-4a6c-9920-7df2e63bd18b")
-		)
-		(pin "4"
-			(uuid "4869a818-f579-4689-99fc-1052070571f2")
-		)
-		(pin "3"
-			(uuid "a3f4a90c-f35b-4d8a-b77e-139629507d2e")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 88.9 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7750835b-432d-41f2-a0ed-b03fbdf95a96")
-		(property "Reference" "#PWR015"
-			(at 88.9 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 88.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2737174-5548-45b4-8ca9-088cf6480b09")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 62.23 90)
 		(unit 1)
@@ -3293,15 +2585,15 @@
 		(dnp no)
 		(uuid "81fd4d85-a550-4e4c-9002-20e10b47a5b6")
 		(property "Reference" "C7"
-			(at 107.95 54.61 90)
+			(at 107.95 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "68p"
-			(at 107.95 57.15 90)
+		(property "Value" "47p"
+			(at 107.95 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,13 +2627,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "77-VJ0603D680FXPAJ"
+		(property "Mouser Part Number" "77-VJ0603A470JXXCBC"
 			(at 107.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "25V"
+			(at 107.95 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3360,148 +2660,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 107.95 77.47 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85cede61-2cf5-47df-b972-73351d879885")
-		(property "Reference" "U2"
-			(at 107.95 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TL972QDRQ1"
-			(at 107.95 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl972-q1.pdf?ts=1726304035867"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TL972QDRQ1 "
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "44feab38-cd2b-421c-9bee-ab675a1ef0fa")
-		)
-		(pin "1"
-			(uuid "dc3c37fd-b861-4ee9-bd62-d8e0d64a0c43")
-		)
-		(pin "8"
-			(uuid "9b1687d1-093a-4158-ba8a-a7983fe36a06")
-		)
-		(pin "2"
-			(uuid "5af02bd7-7797-47db-9a79-84aba03b13af")
-		)
-		(pin "6"
-			(uuid "0eb19e7f-31a0-4df2-a5b5-2fb07d4bb30f")
-		)
-		(pin "7"
-			(uuid "f2ec1230-28d9-451b-9365-0fd29f3eb016")
-		)
-		(pin "4"
-			(uuid "4869a818-f579-4689-99fc-1052070571f1")
-		)
-		(pin "3"
-			(uuid "8265e11b-c203-4c65-9967-284a58f29dd6")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 212.09 91.44 0)
+		(at 207.01 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "86d4b2ef-2b5d-44b9-92e3-d9ecc53c1012")
 		(property "Reference" "R9"
-			(at 209.55 90.1699 0)
+			(at 204.47 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +2679,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 209.55 92.7099 0)
+			(at 204.47 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +2688,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 213.868 91.44 90)
+			(at 208.788 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +2697,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
-			(at 212.09 91.44 0)
+			(at 207.01 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +2706,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 212.09 91.44 0)
+			(at 207.01 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,12 +2715,20 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RT0603FRE10100KL"
-			(at 212.09 91.44 0)
+			(at 207.01 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 207.01 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3564,6 +2741,72 @@
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 88.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86f25f8a-99f7-4ac3-b37f-77af828cca1c")
+		(property "Reference" "#PWR012"
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 88.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d141af5-ffd7-4eb7-a90c-95e7a6d33fc6")
+		)
+		(instances
+			(project "BinauralMic"
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3633,6 +2876,14 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 88.9 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "be8b8b16-4f70-4571-a1cc-b088895c4aa6")
 		)
@@ -3644,6 +2895,101 @@
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
 					(reference "R5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MC33078")
+		(at 107.95 128.27 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "907af8cc-4312-4af7-8b8f-3f9948aa6cb5")
+		(property "Reference" "U5"
+			(at 107.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC33078"
+			(at 107.95 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Noise, Dual Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-MC33078DR2G"
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fd1d0372-dd4d-4b25-a521-2628f856eeae")
+		)
+		(pin "5"
+			(uuid "e1106b11-40ca-42d3-bbe3-4aed06b34b61")
+		)
+		(pin "6"
+			(uuid "1f6215fe-fede-400c-ac26-75b01c393d50")
+		)
+		(pin "8"
+			(uuid "154f4203-b35d-444b-8e9d-66bdd8043ebc")
+		)
+		(pin "4"
+			(uuid "0d3f9d8d-2976-44a2-8e4c-e50429b14a7e")
+		)
+		(pin "2"
+			(uuid "f3383972-afab-4f74-8b59-6ef487d58b4a")
+		)
+		(pin "7"
+			(uuid "b8abdaca-cc00-4d10-b39b-4347ae37ca47")
+		)
+		(pin "1"
+			(uuid "714e1539-e5bb-4d8a-8ba5-da2c1f198f4d")
+		)
+		(instances
+			(project ""
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
+					(reference "U5")
+					(unit 2)
 				)
 			)
 		)
@@ -3710,6 +3056,14 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 121.92 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d647074a-5253-4647-8985-ef555f28b3f3")
 		)
@@ -3726,35 +3080,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 182.88 96.52 0)
+		(lib_id "power:+5VA")
+		(at 177.8 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac2682c8-ecc3-4ddb-b353-03ab8fcc7bd9")
-		(property "Reference" "C10"
-			(at 186.69 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 186.69 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 183.8452 100.33 0)
+		(uuid "963b00bc-2789-4787-b5e9-d788d424c38b")
+		(property "Reference" "#PWR015"
+			(at 177.8 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3762,8 +3098,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
-			(at 182.88 96.52 0)
+		(property "Value" "+5VA"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,8 +3115,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 182.88 96.52 0)
+		(property "Datasheet" ""
+			(at 177.8 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,25 +3124,88 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "74-TMCP1E104KTRF"
-			(at 182.88 96.52 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 177.8 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "b1ca3d24-cfad-4156-88df-f87586fbf775")
 		)
 		(pin "1"
-			(uuid "dfcd182e-136c-48b9-b728-c48f38e293fb")
+			(uuid "55bb0ddb-48a5-41eb-929b-fdbed94c9fcb")
 		)
 		(instances
-			(project ""
+			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "C10")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 88.9 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f907b3c-04d5-45cf-8c9b-e07bdb236c4d")
+		(property "Reference" "#PWR06"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d249307f-1785-47fd-8ea7-dfef089f42cc")
+		)
+		(instances
+			(project "BinauralMic"
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3871,6 +3278,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:MC33078")
+		(at 175.26 96.52 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0431357-151e-4ce3-b324-ec9fd7461d17")
+		(property "Reference" "U5"
+			(at 176.53 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MC33078"
+			(at 176.53 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC33078-D.PDF"
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low Noise, Dual Operational Amplifiers, DIP-8/SOIC-8/SSOP-8"
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-MC33078DR2G"
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fd1d0372-dd4d-4b25-a521-2628f856eeae")
+		)
+		(pin "5"
+			(uuid "e1106b11-40ca-42d3-bbe3-4aed06b34b61")
+		)
+		(pin "6"
+			(uuid "1f6215fe-fede-400c-ac26-75b01c393d50")
+		)
+		(pin "8"
+			(uuid "154f4203-b35d-444b-8e9d-66bdd8043ebc")
+		)
+		(pin "4"
+			(uuid "0d3f9d8d-2976-44a2-8e4c-e50429b14a7e")
+		)
+		(pin "2"
+			(uuid "f3383972-afab-4f74-8b59-6ef487d58b4a")
+		)
+		(pin "7"
+			(uuid "b8abdaca-cc00-4d10-b39b-4347ae37ca47")
+		)
+		(pin "1"
+			(uuid "714e1539-e5bb-4d8a-8ba5-da2c1f198f4d")
+		)
+		(instances
+			(project ""
+				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 88.9 119.38 0)
 		(mirror y)
@@ -3934,6 +3438,14 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4e0fc443-402c-43d3-a9e8-4e46d0cd8c70")
 		)
@@ -3951,16 +3463,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 96.52 0)
+		(at 189.23 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b86ed297-a2b4-4912-bb2b-902bd4d4c21f")
 		(property "Reference" "C11"
-			(at 198.12 95.2499 0)
+			(at 193.04 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3480,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 198.12 97.7899 0)
+			(at 193.04 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,8 +3488,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 195.2752 100.33 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 190.1952 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,8 +3497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
-			(at 194.31 96.52 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
+			(at 189.23 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +3507,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 194.31 96.52 0)
+			(at 189.23 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,13 +3515,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA105K020TNJ"
-			(at 194.31 96.52 0)
+		(property "Mouser Part Number" "187-CL10B105KA8NNNL"
+			(at 189.23 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "25V"
+			(at 193.04 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -4102,18 +3622,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cab3dec2-103b-433b-bb51-4a3f5390729f")
 		(property "Reference" "C9"
-			(at 140.97 69.85 90)
+			(at 140.97 68.072 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 140.97 72.39 90)
+		(property "Value" "10u"
+			(at 140.97 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,13 +3666,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA475K016R"
+		(property "Mouser Part Number" "581-TAJA106K016R"
 			(at 140.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 140.97 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4235,6 +3762,14 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 146.05 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "27aff77c-2bb3-41e2-a26d-3c7b84295947")
 		)
@@ -4252,16 +3787,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 212.09 101.6 0)
+		(at 207.01 101.6 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d5e75575-6bc6-4763-9ac9-49b240d153f2")
 		(property "Reference" "R10"
-			(at 209.55 100.3299 0)
+			(at 204.47 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,8 +3804,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 209.55 102.8699 0)
+		(property "Value" "200k"
+			(at 204.47 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +3814,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 213.868 101.6 90)
+			(at 208.788 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,8 +3822,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
-			(at 212.09 101.6 0)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,7 +3832,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 212.09 101.6 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,13 +3840,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603FRE10100KL"
-			(at 212.09 101.6 0)
+		(property "Mouser Part Number" "603-AF0603FR-07200KL"
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4339,15 +3882,15 @@
 		(dnp no)
 		(uuid "f23d220e-9278-4146-8997-0d23119b9f8a")
 		(property "Reference" "C15"
-			(at 140.97 120.65 90)
+			(at 140.97 119.126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 140.97 123.19 90)
+		(property "Value" "10u"
+			(at 140.97 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,13 +3924,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA475K016R"
+		(property "Mouser Part Number" "581-TAJA106K016R"
 			(at 140.97 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 140.97 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4423,7 +3974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18k"
+		(property "Value" "24k"
 			(at 110.744 119.38 90)
 			(effects
 				(font
@@ -4441,7 +3992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/315/AOA0000C307-1149632.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
 			(at 107.95 120.65 0)
 			(effects
 				(font
@@ -4459,13 +4010,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERA-3AEB183V"
+		(property "Mouser Part Number" "03-RT0603DRD0724KL"
 			(at 107.95 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 107.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4478,84 +4037,6 @@
 			(project "BinauralMic"
 				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fbb82b35-aa11-4e4c-9586-26ae67dc7edc")
-		(property "Reference" "R4"
-			(at 105.156 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 110.744 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 107.95 69.088 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/cr-1858361.pdf"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "652-CR0603FX-1004ELF"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "379cddeb-e415-401a-a41e-c94c159ee907")
-		)
-		(pin "1"
-			(uuid "52cff04d-19ad-478e-89f7-df995107acae")
-		)
-		(instances
-			(project "BinauralMic"
-				(path "/d9e790b9-8aa4-4e58-8bd7-6ef4bc890627/c3b3219f-f658-485a-9922-47cf99d00243"
-					(reference "R4")
 					(unit 1)
 				)
 			)

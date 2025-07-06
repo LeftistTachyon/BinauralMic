@@ -6,10 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "USB ADC")
-		(date "2024-09-15")
-		(rev "1")
+		(date "2025-07-06")
+		(rev "2")
 		(company "Tachyon PCBAs")
-		(comment 1 "first try surely")
+		(comment 1 "second try surely")
 		(comment 2 "Built around the PCM2903C")
 	)
 	(lib_symbols
@@ -1924,6 +1924,12 @@
 		(uuid "4e738ac8-a1d8-433a-b164-9750d3877787")
 	)
 	(junction
+		(at 154.94 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51b6229a-71d5-4b23-aba1-da318030b88b")
+	)
+	(junction
 		(at 143.51 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2093,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 121.92) (xy 143.51 120.65)
+			(xy 154.94 121.92) (xy 154.94 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2613,16 +2619,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 120.65) (xy 154.94 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96aad82d-9fcc-411a-b1d8-e6fbbd0eef2f")
-	)
-	(wire
-		(pts
 			(xy 129.54 87.63) (xy 138.43 87.63)
 		)
 		(stroke
@@ -2973,6 +2969,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 120.65) (xy 143.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc1fc6b-3bfa-467f-b989-c56762aa2659")
+	)
+	(wire
+		(pts
 			(xy 95.25 92.71) (xy 96.52 92.71)
 		)
 		(stroke
@@ -3291,6 +3297,14 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 208.28 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "778d1ece-5bfe-4d3d-9f1a-9c937bf295b2")
 		)
@@ -3368,6 +3382,14 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a2b3f4f7-e460-4c55-9e1f-d76ded4658bf")
 		)
@@ -3400,7 +3422,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "16905ef4-429d-40fa-a90d-61fa0ef6b849")
 		(property "Reference" "C20"
 			(at 147.32 114.2999 0)
@@ -3420,7 +3441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 144.4752 119.38 0)
 			(effects
 				(font
@@ -3429,7 +3450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
 			(at 143.51 115.57 0)
 			(effects
 				(font
@@ -3447,13 +3468,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA106K010TNJ"
+		(property "Mouser Part Number" "581-TAJA106K016R"
 			(at 143.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 147.32 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3479,7 +3509,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f7e31af-7289-4cfe-8386-fb8602bc102c")
 		(property "Reference" "C17"
 			(at 153.67 88.8999 0)
@@ -3499,7 +3528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 150.8252 93.98 0)
 			(effects
 				(font
@@ -3508,7 +3537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
 			(at 149.86 90.17 0)
 			(effects
 				(font
@@ -3526,13 +3555,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA106K010TNJ"
+		(property "Mouser Part Number" "581-TAJA106K016R"
 			(at 149.86 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 153.67 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3558,7 +3596,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34895922-d759-4452-92b5-5c8ff042d835")
 		(property "Reference" "C22"
 			(at 223.52 124.4599 0)
@@ -3612,6 +3649,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 223.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -3691,6 +3737,14 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 208.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "03c26253-cecb-446f-bfac-96d99441349b")
 		)
@@ -3766,6 +3820,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 232.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3989,7 +4051,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5978efbe-5ada-41f5-9050-6a32dd7cfb1a")
 		(property "Reference" "C16"
 			(at 181.61 54.6099 0)
@@ -4009,7 +4070,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 176.8348 52.07 0)
 			(effects
 				(font
@@ -4018,7 +4079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/40179/tmcp.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf"
 			(at 177.8 55.88 0)
 			(effects
 				(font
@@ -4036,13 +4097,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "74-TMCP1E104KTRF"
+		(property "Mouser Part Number" "187-CL10A104KA8NNNC"
 			(at 177.8 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "25V"
+			(at 181.61 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "2"
@@ -4188,6 +4258,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 189.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4336,6 +4414,14 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" ""
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c27d03f7-e168-48ae-9840-76cc1a73186d")
 		)
@@ -4412,6 +4498,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 81.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4638,7 +4732,7 @@
 		(dnp no)
 		(uuid "c87b70f0-1923-4222-9237-70d1975e994e")
 		(property "Reference" "C19"
-			(at 83.82 123.19 90)
+			(at 83.82 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,14 +4740,14 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 83.82 120.65 90)
+			(at 83.82 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 87.63 116.5352 0)
 			(effects
 				(font
@@ -4662,7 +4756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
 			(at 83.82 115.57 0)
 			(effects
 				(font
@@ -4680,13 +4774,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA106K010TNJ"
+		(property "Mouser Part Number" "581-TAJA106K016R"
 			(at 83.82 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 83.82 124.206 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4732,7 +4834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 137.4648 119.38 0)
 			(effects
 				(font
@@ -4741,7 +4843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
 			(at 138.43 115.57 0)
 			(effects
 				(font
@@ -4759,13 +4861,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA106K010TNJ"
+		(property "Mouser Part Number" "581-TAJA106K016R"
 			(at 138.43 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 134.62 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -4858,7 +4969,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d77714c1-fb27-4cf4-b786-6ccf529a5256")
 		(property "Reference" "C18"
 			(at 67.31 109.2199 0)
@@ -4878,7 +4988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 64.4652 114.3 0)
 			(effects
 				(font
@@ -4887,7 +4997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
 			(at 63.5 110.49 0)
 			(effects
 				(font
@@ -4905,13 +5015,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA106K010TNJ"
+		(property "Mouser Part Number" "581-TAJA106K016R"
 			(at 63.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 67.31 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -4990,6 +5109,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 81.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5071,6 +5198,15 @@
 				(hide yes)
 			)
 		)
+		(property "Voltage Rating" "50V"
+			(at 193.04 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "982baf9a-dbff-4047-a02c-65c1fa50c808")
 		)
@@ -5094,7 +5230,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc0ae72d-9482-42a2-bfa8-f4e895748dad")
 		(property "Reference" "C23"
 			(at 158.75 114.2999 0)
@@ -5114,7 +5249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 155.9052 119.38 0)
 			(effects
 				(font
@@ -5123,7 +5258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-3165268.pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/40/TAJ-3165264.pdf"
 			(at 154.94 115.57 0)
 			(effects
 				(font
@@ -5141,13 +5276,22 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "581-TAJA106K010TNJ"
+		(property "Mouser Part Number" "581-TAJA106K016R"
 			(at 154.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" "16V"
+			(at 158.75 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -5268,6 +5412,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 96.52 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -5448,7 +5600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6k"
+		(property "Value" "1k"
 			(at 134.62 77.4699 0)
 			(effects
 				(font
@@ -5466,7 +5618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?28773"
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 132.08 76.2 0)
 			(effects
 				(font
@@ -5484,13 +5636,21 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW08055K60FKEAC"
+		(property "Mouser Part Number" "71-CRCW06031K00FKEE"
 			(at 132.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Voltage Rating" ""
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5642,7 +5802,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 121.92 0)
+		(at 154.94 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5651,7 +5811,7 @@
 		(fields_autoplaced yes)
 		(uuid "fce5de0a-46ff-46ee-93b3-ad62839a4b3b")
 		(property "Reference" "#PWR029"
-			(at 143.51 128.27 0)
+			(at 154.94 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +5820,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 127 0)
+			(at 154.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,7 +5828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 121.92 0)
+			(at 154.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +5837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 121.92 0)
+			(at 154.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,7 +5846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 121.92 0)
+			(at 154.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

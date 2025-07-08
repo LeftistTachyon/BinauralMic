@@ -2661,7 +2661,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 91.44 0)
+		(at 207.01 101.6 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2670,7 +2670,7 @@
 		(dnp no)
 		(uuid "86d4b2ef-2b5d-44b9-92e3-d9ecc53c1012")
 		(property "Reference" "R9"
-			(at 204.47 90.1699 0)
+			(at 204.47 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2679,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 204.47 92.7099 0)
+			(at 204.47 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2688,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 208.788 91.44 90)
+			(at 208.788 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2697,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_15-3461507.pdf"
-			(at 207.01 91.44 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2706,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 91.44 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2715,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RT0603FRE10100KL"
-			(at 207.01 91.44 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +2724,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 207.01 91.44 0)
+			(at 207.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,28 +2962,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "fd1d0372-dd4d-4b25-a521-2628f856eeae")
+			(uuid "fd1d0372-dd4d-4b25-a521-2628f856eeaf")
 		)
 		(pin "5"
-			(uuid "e1106b11-40ca-42d3-bbe3-4aed06b34b61")
+			(uuid "e1106b11-40ca-42d3-bbe3-4aed06b34b62")
 		)
 		(pin "6"
-			(uuid "1f6215fe-fede-400c-ac26-75b01c393d50")
+			(uuid "1f6215fe-fede-400c-ac26-75b01c393d51")
 		)
 		(pin "8"
-			(uuid "154f4203-b35d-444b-8e9d-66bdd8043ebc")
+			(uuid "154f4203-b35d-444b-8e9d-66bdd8043ebd")
 		)
 		(pin "4"
-			(uuid "0d3f9d8d-2976-44a2-8e4c-e50429b14a7e")
+			(uuid "0d3f9d8d-2976-44a2-8e4c-e50429b14a7f")
 		)
 		(pin "2"
-			(uuid "f3383972-afab-4f74-8b59-6ef487d58b4a")
+			(uuid "f3383972-afab-4f74-8b59-6ef487d58b4b")
 		)
 		(pin "7"
-			(uuid "b8abdaca-cc00-4d10-b39b-4347ae37ca47")
+			(uuid "b8abdaca-cc00-4d10-b39b-4347ae37ca48")
 		)
 		(pin "1"
-			(uuid "714e1539-e5bb-4d8a-8ba5-da2c1f198f4d")
+			(uuid "714e1539-e5bb-4d8a-8ba5-da2c1f198f4e")
 		)
 		(instances
 			(project ""
@@ -3342,28 +3342,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "fd1d0372-dd4d-4b25-a521-2628f856eeae")
+			(uuid "fd1d0372-dd4d-4b25-a521-2628f856eeb0")
 		)
 		(pin "5"
-			(uuid "e1106b11-40ca-42d3-bbe3-4aed06b34b61")
+			(uuid "e1106b11-40ca-42d3-bbe3-4aed06b34b63")
 		)
 		(pin "6"
-			(uuid "1f6215fe-fede-400c-ac26-75b01c393d50")
+			(uuid "1f6215fe-fede-400c-ac26-75b01c393d52")
 		)
 		(pin "8"
-			(uuid "154f4203-b35d-444b-8e9d-66bdd8043ebc")
+			(uuid "154f4203-b35d-444b-8e9d-66bdd8043ebe")
 		)
 		(pin "4"
-			(uuid "0d3f9d8d-2976-44a2-8e4c-e50429b14a7e")
+			(uuid "0d3f9d8d-2976-44a2-8e4c-e50429b14a80")
 		)
 		(pin "2"
-			(uuid "f3383972-afab-4f74-8b59-6ef487d58b4a")
+			(uuid "f3383972-afab-4f74-8b59-6ef487d58b4c")
 		)
 		(pin "7"
-			(uuid "b8abdaca-cc00-4d10-b39b-4347ae37ca47")
+			(uuid "b8abdaca-cc00-4d10-b39b-4347ae37ca49")
 		)
 		(pin "1"
-			(uuid "714e1539-e5bb-4d8a-8ba5-da2c1f198f4d")
+			(uuid "714e1539-e5bb-4d8a-8ba5-da2c1f198f4f")
 		)
 		(instances
 			(project ""
@@ -3787,7 +3787,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 101.6 0)
+		(at 207.01 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3796,7 +3796,7 @@
 		(dnp no)
 		(uuid "d5e75575-6bc6-4763-9ac9-49b240d153f2")
 		(property "Reference" "R10"
-			(at 204.47 100.3299 0)
+			(at 204.47 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,7 +3805,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at 204.47 102.8699 0)
+			(at 204.47 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +3814,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 208.788 101.6 90)
+			(at 208.788 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +3823,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
-			(at 207.01 101.6 0)
+			(at 207.01 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +3832,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 101.6 0)
+			(at 207.01 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,7 +3841,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-AF0603FR-07200KL"
-			(at 207.01 101.6 0)
+			(at 207.01 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3850,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 207.01 101.6 0)
+			(at 207.01 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
